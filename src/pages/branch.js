@@ -13,7 +13,7 @@ export default function branch() {
            get updates by following me on
           </p>
           <Link
-            href="https://www.instagram.com/@modest_azad" target="_blank"
+            href="https://www.instagram.com/modest_azad" target="_blank"
             className=" bg-blue-500 hover:bg-blue-700 text-white font-bold  px-6 py-4  rounded-3xl "
           >
            Instagram
