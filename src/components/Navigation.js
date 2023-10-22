@@ -27,7 +27,7 @@ export default function Navigation() {
     }
   return (
     <>
-<nav className="sticky top-0 px-2  w-screen bg-gray-100  center shadow  rounded-bl-3xl rounded-br-3xl">
+<nav className="sticky top-0 px-2 acrylic w-screen bg-gray-100  center shadow  rounded-bl-3xl rounded-br-3xl">
     <div className="flex flex-wrap justify-between items-center mx-auto  p-4 ">
         <Link href="/" className="flex items-center">
             {/* <img  src="/images/book.png" className="h-12 mr-3 " alt="Collezian Logo" /> */}
@@ -73,23 +73,23 @@ export default function Navigation() {
    
 </nav>
  {/* Mega DropDown Menu For all branch */}
- <div id="mega-menu-full-dropdown" className={`" ${currentState}  px-4 py-5 mt-2 absolute w-full rounded-3xl border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y light:bg-gray-800 light:border-gray-600"`} onClick={hamburger} >
+ <div id="mega-menu-full-dropdown" className={`" ${currentState} px-4 py-5 mt-2 absolute w-full rounded-3xl border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y light:bg-gray-800 light:border-gray-600"`} onClick={hamburger} >
         <div className="grid  px-4 py-5 mx-auto text-gray-900light:text-white sm:grid-cols-2 ">
             <ul>
                 <li onClick={showHide} >
-                    <Link href="/branch" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
+                    <Link href="/branch/cse" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold ">Computer Science and Engineering (CSE)</div>
                         <span className="text-sm text-gray-900 light:text-gray-400">Notes, Books, Question Bank, Assignments etc.</span>
                     </Link>
                 </li>
                 <li onClick={showHide}>
-                    <Link href="/branch" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
+                    <Link href="/branch/ee" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Electrical Engineering (EE)</div>
                         <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
                     </Link>
                 </li >
                 <li onClick={showHide}>
-                    <Link href="/branch" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
+                    <Link href="/branch/ece" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Electronics and Communication Engineering (ECE)</div>
                         <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
                     </Link>
@@ -97,19 +97,19 @@ export default function Navigation() {
             </ul>
             <ul>
                 <li onClick={showHide}>
-                    <Link href="/branch" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
+                    <Link href="/branch/civil" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Civil Engineering (CE)</div>
                         <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
                     </Link>
                 </li>
                 <li onClick={showHide}>
-                    <Link href="/branch" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
+                    <Link href="/branch/me" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Mechanical Engineering (ME)</div>
                         <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
                     </Link>
                 </li>
                 <li onClick={showHide}>
-                    <Link href="/branch" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
+                    <Link href="/branch/eee" className="block p-3 px-7 rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Electrical and Electronics Engineering (EEE)</div>
                         <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
                     </Link>
