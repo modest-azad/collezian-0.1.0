@@ -4,7 +4,6 @@
 
 
 *{
-    user-select:none;
     margin:0; padding:0;
     box-sizing: border-box;
 }
@@ -18,9 +17,10 @@ main{
     align-items: center;
 }
 .acrylic{
-    backdrop-filter: blur(25px) saturate(180%);
+    backdrop-filter: blur(30px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-   border: 1px solid rgba(255, 255, 255, 0.125);
+   border: 1px solid rgba(255, 255, 255, 0.168); 
+  
 }
 #mega-menu-full-dropdown{
   

@@ -1,8 +1,8 @@
-import Hero from "@/components/hero";
+import Hero from "../components/hero";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "@/styles/styles.module.css";
-import Services from "@/components/services";
+import styles from "../styles/styles.module.css";
+import Services from "../components/services";
 
 export default function Home() {
   return (
@@ -91,7 +91,7 @@ export default function Home() {
       </Head>
       <main className="light:bg-gray-100">
         <Hero />
-        {/* <Services/> */}
+        <Services/>
       </main>
     </>
   );

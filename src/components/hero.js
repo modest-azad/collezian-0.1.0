@@ -6,12 +6,12 @@ const hero = () => {
     <>
       <div className=" dark:bg-black  w-full h-[80vh] flex flex-wrap justify-center items-center ">
         <div className="box text-center p-4">
-          <div className="headline text-l  text-amber-500 p-2">Developed</div>
+          <div className="headline text-l  text-amber-500 p-2">Collezian™</div>
           <div className="headline text-4xl  md:text-6xl font-black dark:text-gray-100">
-            For Future Engineers
+            Engineering with AI
           </div>
           <p className="Description break-words text-sm dark:text-gray-500 py-8">
-            Valuable insights tailored exclusively for engineering students.
+          Chat with our <strong>AI</strong> and download your <strong>Engineering</strong> study materials for free.
           </p>
           <Link
             href=""
