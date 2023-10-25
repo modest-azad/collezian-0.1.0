@@ -10,24 +10,10 @@
 ::selection{
     background-color:transparent;
 }
-main{
-    /* to center all content  */
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-}
+
 .acrylic{
     backdrop-filter: blur(30px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-   border: 1px solid rgba(255, 255, 255, 0.168); 
+    /* -webkit-backdrop-filter: blur(16px) saturate(180%); */
+   /* border: 1px solid rgba(255, 255, 255, 0.168);  */
   
-}
-#mega-menu-full-dropdown{
-  
-    overflow: hidden;
-    transition: all 1s;
-}
-#mega-menu-full-dropdown-button:hover #mega-menu-full-dropdown{
-    display: block;
-    height: auto;
 }

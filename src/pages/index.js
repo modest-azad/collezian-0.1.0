@@ -89,7 +89,7 @@ export default function Home() {
         />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <main className="light:bg-gray-100">
+      <main className="dark:bg-gray-100">
         <Hero />
         <Services/>
       </main>

@@ -4,9 +4,9 @@ import Navigation from "./Navigation";
 const hero = () => {
   return (
     <>
-      <div className=" dark:bg-black  w-full min-h-[70vh] flex flex-wrap justify-center items-center ">
+      <div className=" dark:bg-black  w-full min-h-[60vh] flex flex-wrap justify-center items-center ">
         <div className="box text-center p-4">
-          <div className="headline text-l  text-amber-500 p-2">Collezian™</div>
+          <div className="headline text-l  text-blue-500 p-2">Collezian™</div>
           <div className="headline text-4xl  md:text-6xl font-black dark:text-gray-100">
             Engineering with AI
           </div>
@@ -15,7 +15,7 @@ const hero = () => {
           </p>
           <Link
             href=""
-            className=" bg-green-500 hover:bg-green-700 text-white font-bold  px-6 py-4  rounded-3xl "
+            className=" bg-blue-500 hover:bg-blue-700 text-white font-bold  px-6 py-4  rounded-3xl "
           >
             {" "}
             coming soon{" "}

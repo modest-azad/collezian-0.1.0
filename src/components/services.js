@@ -1,60 +1,54 @@
 /* eslint-disable @next/next/no-img-element */
 function services() {
+  var heading = "md:py-4 font-semibold text-xl";
+  var image = " feature-image md:h-[40%] flex justify-center items-center";
+  var para = "para max-sm:text-sm max-sm:py-4 text-gray-600 ";
   return (
     <>
-      <div className="service p-[5%] md:p[40%] ">
+      <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-16 p-[5%] md:p-[10%]">
         {/* feature - 1  */}
-        <div className="feature grid max-sm:grid-rows-2 md:grid-cols-5 items-center">
-          <div className="feature-image md:col-span-2 ">
-            <img src="/images/man-reading-book.svg" alt="readingBook" />
+        <div className="feature col-span-4 p-4 md:shadow transition-all duration-300 ease-in-out hover:bg-blue-100 md:hover:shadow rounded-3xl">
+          <div className={image}>
+            <img className="rounded-full w-[60%] aspect-1/1" src="/images/man-reading-book.svg" alt="readingBook" />
           </div>
 
-          <div className="feature-content max-sm:text-center md:p-8 md:col-span-3 ">
-            <h2 className="font-bold  text-2xl">Grow with AI</h2>
-            <p className="py-4 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              est ea veritatis sed reiciendis nostrum quam vitae velit
-              recusandae? Culpa incidunt aut error a earum iusto commodi, modi
-              architecto? Quidem minus, quos corrupti sint est exercitationem.
-              Dolor, recusandae ipsum consequatur in, expedita ipsa dolorum
-              exercitationem fugit, voluptas tempore doloribus iste!
+          <div className="feature-content text-center ">
+            <h2 className={heading}>Chat with AI</h2>
+            <p className={para}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+              sint fugiat totam et repudiandae error id saepe exercitationem.
+              Minus consequatur nam itaque, tenetur possimus eum?
             </p>
           </div>
         </div>
 
         {/* feature - 2 */}
-        <div className="feature grid max-sm:grid-rows-2 md:grid-cols-5 items-center">
-          <div className="feature-image md:col-span-2 ">
-            <img src="/images/education.png" alt="Study_Materials" />
+        <div className="feature col-span-4 p-4 md:shadow transition-all duration-300 ease-in-out hover:bg-blue-100 md:hover:shadow rounded-3xl">
+          <div className={image}>
+            <img className="rounded-full w-[60%] aspect-1/1" src="/images/education.png" alt="Study_Materials" />
           </div>
-          <div className="feature-content max-sm:text-center text-right md:p-8 md:col-span-3 ">
-            <h2 className="font-bold text-2xl">Free Engineering Materials</h2>
-            <p className="py-4 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              est ea veritatis sed reiciendis nostrum quam vitae velit
-              recusandae? Culpa incidunt aut error a earum iusto commodi, modi
-              architecto? Quidem minus, quos corrupti sint est exercitationem.
-              Dolor, recusandae ipsum consequatur in, expedita ipsa dolorum
-              exercitationem fugit, voluptas tempore doloribus iste!
+          <div className="feature-content text-center">
+            <h2 className={heading}>Free Resourses</h2>
+            <p className={para}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+              sint fugiat totam et repudiandae error id saepe exercitationem.
+              Minus consequatur nam itaque, tenetur possimus eum?
             </p>
           </div>
         </div>
 
         {/* feature - 3  */}
-        <div className="feature grid max-sm:grid-rows-2 md:grid-cols-5 items-center">
-          <div className="feature-image md:col-span-2 ">
-            <img src="/images/happy-graduation.svg" alt="career" />
+        <div className="feature col-span-4 p-4 md:shadow transition-all duration-300 ease-in-out hover:bg-blue-100 md:hover:shadow rounded-3xl">
+          <div className={image}>
+            <img className="rounded-full  w-[60%] aspect-1/1" src="/images/happy-graduation.svg" alt="career" />
           </div>
 
-          <div className="feature-content max-sm:text-center md:p-8 md:col-span-3 ">
-            <h2 className="font-bold  text-2xl">Job Updates</h2>
-            <p className="py-4 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              est ea veritatis sed reiciendis nostrum quam vitae velit
-              recusandae? Culpa incidunt aut error a earum iusto commodi, modi
-              architecto? Quidem minus, quos corrupti sint est exercitationem.
-              Dolor, recusandae ipsum consequatur in, expedita ipsa dolorum
-              exercitationem fugit, voluptas tempore doloribus iste!
+          <div className="feature-content text-center">
+            <h2 className={heading}>Job Updates</h2>
+            <p className={para}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+              sint fugiat totam et repudiandae error id saepe exercitationem.
+              Minus consequatur nam itaque, tenetur possimus eum?
             </p>
           </div>
         </div>
