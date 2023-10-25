@@ -76,8 +76,8 @@ export default function Navigation() {
    
 </nav>
  {/* Mega DropDown Menu For all branch */}
- <div id="mega-menu-full-dropdown" className={`" ${currentState} z-50 px-4 py-5 mt-2 absolute w-full rounded-3xl border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y light:bg-gray-800 light:border-gray-600"`} onClick={hamburger} >
-        <div className="grid  px-4 py-5 mx-auto text-gray-900light:text-white sm:grid-cols-2 ">
+ <div id="mega-menu-full-dropdown" className={`" ${currentState} z-50 px-4 py-5 mt-2 sticky top-0  w-full rounded-3xl border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y light:bg-gray-800 light:border-gray-600"`} onClick={hamburger} >
+        <div className="grid px-4 py-5 mx-auto text-gray-900light:text-white sm:grid-cols-2 ">
             <ul>
                 <li onClick={showHide} >
                     <Link href="/branch/cse/" className="block p-3 px-7 rounded-3xl hover:bg-amber-100 light:hover:bg-gray-700">
