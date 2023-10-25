@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 function services() {
-  var heading = "md:py-4 font-semibold text-xl";
+  var heading = "py-4 font-semibold text-xl";
   var image = " feature-image md:h-[40%] flex justify-center items-center";
-  var para = "para max-sm:text-sm max-sm:py-4 text-gray-600 ";
+  var para = "para max-sm:text-sm text-gray-600 ";
   return (
     <>
       <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:p-[10%]">
