@@ -27,7 +27,7 @@ export default function Navigation() {
     }
   return (
     <>
-<nav className="sticky top-0 z-50 acrylic w-full center shadow  rounded-bl-3xl rounded-br-3xl">
+<nav className="sticky top-0 z-50 acrylic w-full center shadow ">
     <div className="flex flex-wrap justify-between items-center mx-auto  p-4 ">
         <Link href="/" className="flex items-center">
             {/* <img  src="/images/book.png" className="h-12 mr-3 " alt="Collezian Logo" /> */}
