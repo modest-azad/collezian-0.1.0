@@ -1,38 +1,31 @@
 /* eslint-disable @next/next/no-img-element */
-function services(){
-    const cardStyle = "card hover:shadow-xl m-4 rounded-3xl text-center p-6 border border-gray-200 "
-    const imgStyle = "p-6"
-    return (
-        <>
-            <div className="services container">
-                <h1 className="text-center text-4xl font-bold">Contents</h1>
+function services() {
+  return (
+    <>
+      <div className="services container">
+        <div className="feature grid grid-rows-2 gap-10 md:grid-cols-5">
+          <div className="feature-image md:col-span-2 ">
+            <img
+              
+              src="/images/man-reading-book.svg"
+              alt="readingBook"
+            />
+          </div>
 
-                <div className="card-container my-10 grid grid-cols-4 max-sm:grid-cols-1 gap-4 ">
-                    <div className={`"${cardStyle}"`}>
-                        <img className={`${imgStyle}`} src="/images/readingBook.png" alt="image"/>
-                        <h1 className="text-xl font-bold text-gray-900">Handwritten Notes</h1>
-                        <p className="text-gray-800 py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, architecto.</p>
-                    </div>
-                    <div className={`"${cardStyle}"`}>
-                        <img className={`${imgStyle}`} src="/images/man-reading-book.png" alt="image"/>
-                        <h1 className="text-xl font-bold text-gray-900">Prev. Questions</h1>
-                        <p className="text-gray-800 py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, architecto.</p>
-                    </div>
-                    <div className={`"${cardStyle}"`}>
-                        <img className={`${imgStyle}`} src="/images/happy-graduation.png" alt="image"/>
-                        <h1 className="text-xl font-bold text-gray-900">Jobs</h1>
-                        <p className="text-gray-800 py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, architecto.</p>
-                    </div>
-                    <div className={`"${cardStyle}"`}>
-                        <img className={`${imgStyle}`} src="/images/education.png" alt="image"/>
-                        <h1 className="text-xl font-bold text-gray-900">Career Blogs</h1>
-                        <p className="text-gray-800 py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, architecto.</p>
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </>
-    )
+          <div className="feature-content max-sm:text-center  md:col-span-3 p-8">
+            <h2 className="font-bold  text-2xl">Grow with AI</h2>
+            <p className="py-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              est ea veritatis sed reiciendis nostrum quam vitae velit
+              recusandae? Culpa incidunt aut error a earum iusto commodi, modi
+              architecto? Quidem minus, quos corrupti sint est exercitationem.
+              Dolor, recusandae ipsum consequatur in, expedita ipsa dolorum
+              exercitationem fugit, voluptas tempore doloribus iste!
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 export default services;
