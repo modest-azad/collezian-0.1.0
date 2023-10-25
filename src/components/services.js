@@ -5,9 +5,9 @@ function services() {
   var para = "para max-sm:text-sm max-sm:py-4 text-gray-600 ";
   return (
     <>
-      <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-16 p-[5%] md:p-[10%]">
+      <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:p-[10%]">
         {/* feature - 1  */}
-        <div className="feature col-span-4 p-4 md:shadow transition-all duration-300 ease-in-out hover:bg-blue-100 md:hover:shadow rounded-3xl">
+        <div className="feature col-span-4 max-sm:m-8 p-4 md:shadow transition-all duration-300 ease-in-out max-sm:bg-sky-100 hover:bg-blue-100 md:hover:shadow rounded-3xl">
           <div className={image}>
             <img className="rounded-full w-[60%] aspect-1/1" src="/images/man-reading-book.svg" alt="readingBook" />
           </div>
@@ -23,7 +23,7 @@ function services() {
         </div>
 
         {/* feature - 2 */}
-        <div className="feature col-span-4 p-4 md:shadow transition-all duration-300 ease-in-out hover:bg-blue-100 md:hover:shadow rounded-3xl">
+        <div className="feature col-span-4 max-sm:m-8 p-4 md:shadow transition-all duration-300 ease-in-out max-sm:bg-sky-100 hover:bg-blue-100 md:hover:shadow rounded-3xl">
           <div className={image}>
             <img className="rounded-full w-[60%] aspect-1/1" src="/images/education.png" alt="Study_Materials" />
           </div>
@@ -38,7 +38,7 @@ function services() {
         </div>
 
         {/* feature - 3  */}
-        <div className="feature col-span-4 p-4 md:shadow transition-all duration-300 ease-in-out hover:bg-blue-100 md:hover:shadow rounded-3xl">
+        <div className="feature col-span-4 max-sm:m-8 p-4 md:shadow transition-all duration-300 ease-in-out max-sm:bg-sky-100 hover:bg-blue-100 md:hover:shadow rounded-3xl">
           <div className={image}>
             <img className="rounded-full  w-[60%] aspect-1/1" src="/images/happy-graduation.svg" alt="career" />
           </div>
