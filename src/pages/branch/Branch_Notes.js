@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Branch_Notes_api } from "../../api/Branch_Notes_api";
+import Branch_Notes_api  from "../../api/Branch_Notes_api";
 import { useState } from "react";
 
 export default function Branch_Notes({ name }) {
@@ -27,7 +27,7 @@ export default function Branch_Notes({ name }) {
         {/* contents  */}
         <div className=" grid grid-cols-1 md:grid-cols-3 gap-10 md:px-[10%] px-[5%] py-[5%]">
           {currentData.map((item) => {
-            return (
+          
                 <div key={item.key} className="card flex bg-blue-100 text-center shadow rounded-xl">
                   <div className="content p-4">
                     <h2 className="font-semibold text-lg">
@@ -46,7 +46,7 @@ export default function Branch_Notes({ name }) {
                     </div>
                   </div>
                 </div>
-            );
+           
           })}
         </div>
       </div>
