@@ -5,7 +5,7 @@ export default function bca(){
     return(
         <>
             
-            <Branch_template name="Bachelor in Computer Application (BCA)"/>
+            <Branch_template Branch_Name="Bachelor in Computer Application" Notes={"./bca/notes"}/>
         </>
     )
 }

@@ -1,47 +1,77 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
-export default function Branch_template(props) {
-  const card_style = "notes shadow rounded-3xl hover:shadow-lg ";
-  const Image_style= "head aspect-[4/3] p-8 h-[10em] flex justify-center m-auto items-center font-bold text-blue-700  text-xl text-wrap ";
-  const heading = " text-center font-semibold p-4 bg-blue-900 text-white rounded-bl-3xl rounded-br-3xl ";
-  
+import Notes from "./cse/notes";
+export default function Branch_template({Branch_Name,Notes}) {
+  var heading = "py-4 font-semibold text-xl";
+  var image = " feature-image md:h-[40%] md:pt-4 flex justify-center items-center";
+  var para = "para text-sm text-gray-500 ";
+
   return (
     <>
-      <h1 className="text-center font-bold p-8 text-3xl text-gray-400">{props.name}</h1>
-     
-      <div className="container min-h-[60vh] w-screen m-auto grid ">
-        <div className="px-10 md:px-40  self-center grid gap-10 grid-flow-row grid-cols-auto md:grid-cols-3">
+      <h1 className="text-center uppercase font-bold p-8 text-3xl text-gray-700">
+        {Branch_Name}
+      </h1>
 
-            <Link href="#" className={card_style}> 
-              <div className={Image_style}>
-                <img src="/images/book.png" className=""/>
-              </div>
-              <hr/>
-              <div className="body">
-                <h2 className={heading}>Notes</h2>
-              </div>
-            </Link>
-            <Link href="#" className={card_style}> 
-              <div className={Image_style}>
-              <img src="/images/education.png" className="w-[50%]"/>
-              </div>
-              <hr/>
-              <div className="body">
-                <h2 className={heading}>Assignment/Practical</h2>
-              </div>
-            </Link>
-            <Link href="#" className={card_style}> 
-              <div className={Image_style}>
-                QUESTION BANK
-              </div>
-              <hr/>
-              <div className="body">
-                <h2 className={heading}>Question Bank</h2>
-              </div>
-            </Link>
-      
+      <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:px-[10%]">
+        {/* content - 1  */}
+        <Link href={Notes} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-orange-100 text-orange-500 md:hover:shadow-xl hover:translate-y-[-1em] rounded-3xl">
+          <div className={image}>
+            <img
+              className="w-[40%] aspect-1/1"
+              src="/images/book.png"
+              alt="aiBot"
+            />
+          </div>
 
-        </div>
+          <div className="feature-content text-center ">
+            <h2 className={heading}>Notes</h2>
+            <p className={para}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+              sint fugiat totam et repudiandae error id saepe exercitationem.
+              Minus consequatur nam itaque, tenetur possimus eum?
+            </p>
+          </div>
+        </Link>
+
+        {/* content - 2 */}
+        <Link href="" className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-gray-100 text-gray-500 md:hover:shadow-xl hover:translate-y-[-1em] rounded-3xl">
+          <div className={image}>
+            <img
+              className="w-[40%] aspect-1/1"
+              src="/icons/book.png"
+              alt="Study_Materials"
+            />
+          </div>
+          <div className="feature-content text-center">
+            <h2 className={heading}>Assignments/Practicals</h2>
+            <p className={para}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+              sint fugiat totam et repudiandae error id saepe exercitationem.
+              Minus consequatur nam itaque, tenetur possimus eum?
+            </p>
+          </div>
+        </Link>
+
+        {/* content - 3  */}
+        <Link href="" className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-green-100 text-green-500 md:hover:shadow-xl hover:translate-y-[-1em] rounded-3xl">
+          <div className={image}>
+            <img
+              className=" w-[40%] aspect-1/1"
+              src="/icons/job.png"
+              alt="career"
+            />
+          </div>
+
+          <div className="feature-content text-center">
+            <h2 className={heading}>Question Bank (PYQ)</h2>
+            <p className={para}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+              sint fugiat totam et repudiandae error id saepe exercitationem.
+              Minus consequatur nam itaque, tenetur possimus eum?
+            </p>
+          </div>
+        </Link>
       </div>
     </>
   );
