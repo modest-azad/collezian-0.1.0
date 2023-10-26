@@ -1,8 +1,8 @@
-import Branch_template from "../Branch_template"
+import Branch_index from "../Branch_index"
 export default function eee(){
     return(
         <>
-            <Branch_template Branch_Name="Electrical & Electronics Engineering" Notes={"./eee/notes"}/>
+            <Branch_index Branch_Name="Electrical & Electronics Engineering" Notes={"./eee/notes"}/>
         </>
     )
 }

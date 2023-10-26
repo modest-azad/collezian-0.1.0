@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Notes from "./cse/notes";
-export default function Branch_template({Branch_Name,Notes}) {
+export default function Branch_index({Branch_Name,Notes}) {
   var heading = "py-4 font-semibold text-xl";
   var image = " feature-image md:h-[40%] md:pt-4 flex justify-center items-center";
   var para = "para text-sm text-gray-500 ";

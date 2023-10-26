@@ -1,8 +1,8 @@
-import Branch_template from "../Branch_template"
+import Branch_index from "../Branch_template"
 export default function civil(){
     return(
         <>
-            <Branch_template Branch_Name="Civil Enigineering" Notes={"./civil/notes"}/>
+            <Branch_index Branch_Name="Civil Enigineering" Notes={"./civil/notes"}/>
         </>
     )
 }
