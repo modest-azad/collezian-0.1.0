@@ -20,7 +20,6 @@ const Branch_Notes_api = [
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo laudantium porro maxime nam?",
         uploads: "1 day ago",
     },
-    { },
 ]
 
 export default Branch_Notes_api;
