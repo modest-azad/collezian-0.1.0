@@ -1,4 +1,4 @@
-import Branch_index from "../Branch_template"
+import Branch_index from "../Branch_index"
 export default function civil(){
     return(
         <>
