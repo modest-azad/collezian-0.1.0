@@ -1,12 +1,12 @@
 
-export default function Branch_Notes({ name }) {
+export default function Branch_Notes(props) {
 
   return (
     <>
       <div className="w-full m-auto flex flex-col items-center">
         <div>
           <h2 className="headline text-center font-bold text-2xl p-8">
-            {name}
+            {props.name}
           </h2>
         </div>
 
