@@ -1,29 +1,6 @@
 
 import { useState } from "react";
 
-const Branch_Notes_api = [
-  {   
-      key : 0,
-      branch : "cse",
-      subject_name : "OOPS with C++",
-      description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo laudantium porro maxime nam?",
-      uploads: "1 day ago",
-  },
-  {   
-      key : 1,
-      branch : "cse",
-      subject_name : "OOPS with C++",
-      description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo laudantium porro maxime nam?",
-      uploads: "1 day ago",
-  },
-  {   
-      key : 2,
-      branch : "ece",
-      subject_name : "OOPS with C++",
-      description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo laudantium porro maxime nam?",
-      uploads: "1 day ago",
-  },
-]
 
 export default function Branch_Notes({ name }) {
   // used for state managment
@@ -50,17 +27,16 @@ export default function Branch_Notes({ name }) {
 
         {/* contents  */}
         <div className=" grid grid-cols-1 md:grid-cols-3 gap-10 md:px-[10%] px-[5%] py-[5%]">
-          {Branch_Notes_api.map((currentData) => {          
-                <div key={currentData.key} className="card flex bg-blue-100 text-center shadow rounded-xl">
+          <div  className="card flex bg-blue-100 text-center shadow rounded-xl">
                   <div className="content p-4">
                     <h2 className="font-semibold text-lg">
-                      {currentData.subject_name}
+                       Subject Name
                     </h2>
                     <h3 className="text-sm text-gray-700">
-                      {currentData.description}
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus non expedita veritatis, voluptatum officia autem?
                     </h3>
                     <p className="py-2 text-sm  text-gray-700">
-                      Uploads: {currentData.uploads}
+                      Uploads: 1 day ago
                     </p>
                     <div className=" text-sm user-feedback text-gray-700 flex justify-center gap-4 cursor-pointer">
                       <div className="view-count pr-2"> 0 view</div>
@@ -69,7 +45,6 @@ export default function Branch_Notes({ name }) {
                     </div>
                   </div>
                 </div>
-          })}
         </div>
       </div>
     </>
