@@ -1,11 +1,6 @@
 
-import { useState } from "react";
-
-
 export default function Branch_Notes({ name }) {
-  // used for state managment
-  const [currentData, setData] = useState(Branch_Notes_api);
-  console.log(currentData.branch);
+
   return (
     <>
       <div className="w-full m-auto flex flex-col items-center">
