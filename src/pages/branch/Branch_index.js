@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import Link from "next/link";
-import Notes from "./cse/notes";
-export default function Branch_index({Branch_Name,Notes}) {
+
+export default function Branch_index(props) {
   var heading = "py-4 font-semibold text-xl";
   var image = " feature-image md:h-[40%] md:pt-4 flex justify-center items-center";
   var para = "para text-sm text-gray-500 ";
@@ -10,12 +9,12 @@ export default function Branch_index({Branch_Name,Notes}) {
   return (
     <>
       <h1 className="text-center uppercase font-bold p-8 text-3xl text-gray-700">
-        {Branch_Name}
+        {props.Branch_Name}
       </h1>
 
       <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:px-[10%]">
         {/* content - 1  */}
-        <Link href={Notes} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-orange-100 text-orange-500 md:hover:shadow-xl hover:translate-y-[-1em] rounded-3xl">
+        <Link href={props.Notes} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-orange-100 text-orange-500 md:hover:shadow-xl hover:translate-y-[-1em] rounded-3xl">
           <div className={image}>
             <img
               className="w-[40%] aspect-1/1"
