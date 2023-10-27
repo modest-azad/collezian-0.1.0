@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Branch_Notes_api  from "../../api/Branch_Notes_api";
+import Branch_Notes_api  from "./Branch_Notes_api";
 import { useState } from "react";
 
 export default function Branch_Notes({ name }) {
