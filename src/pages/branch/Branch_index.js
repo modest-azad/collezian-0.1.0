@@ -17,8 +17,8 @@ export default function Branch_index(props){
             <div className={image}>
               <img
                 className="w-[40%] aspect-1/1"
-                src="/images/notebook.png"
-                alt="aiBot"
+                src="/icons/notebook.png"
+                alt="notebook"
               />
             </div>
   
