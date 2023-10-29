@@ -8,7 +8,7 @@ export default function Branch_index(props){
     return (
       <>
         <h1 className="text-center uppercase font-bold p-8 text-3xl text-gray-700">
-          {props.Branch_Name}
+          {props.name}
         </h1>
   
         <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:px-[10%]">

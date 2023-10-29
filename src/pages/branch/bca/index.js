@@ -1,11 +1,11 @@
-import Branch_template from "../Branch_template";
+import Branch_index from "../Branch_index";
 
 
 export default function bca(){
     return(
         <>
             
-            <Branch_template name="Bachelor in Computer Application (BCA)"/>
+            <Branch_index name="Bachelor in Computer Application (BCA)"/>
         </>
     )
 }

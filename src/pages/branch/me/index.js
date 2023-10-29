@@ -1,8 +1,8 @@
-import Branch_template from "../Branch_template"
+import Branch_index from "../Branch_index"
 export default function me(){
     return(
         <>
-            <Branch_template name="Mechanical Engineering"/>
+            <Branch_index name="Mechanical Engineering"/>
         </>
     )
 }

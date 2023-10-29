@@ -1,9 +1,9 @@
-import Branch_template from "../Branch_template";
+import Branch_index from "../Branch_index";
 
 export default function cse(){
     return(
         <>
-            <Branch_template name="Computer Science and Engineering" />
+            <Branch_index name="Computer Science and Engineering" />
         </>
     )
 }
