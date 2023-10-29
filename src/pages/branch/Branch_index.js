@@ -17,7 +17,7 @@ export default function Branch_index(props){
             <div className={image}>
               <img
                 className="w-[40%] aspect-1/1"
-                src="/images/book.png"
+                src="/images/notebook.png"
                 alt="aiBot"
               />
             </div>
@@ -37,7 +37,7 @@ export default function Branch_index(props){
             <div className={image}>
               <img
                 className="w-[40%] aspect-1/1"
-                src="/icons/book.png"
+                src="/icons/syllabus.png"
                 alt="Study_Materials"
               />
             </div>
@@ -56,7 +56,7 @@ export default function Branch_index(props){
             <div className={image}>
               <img
                 className=" w-[40%] aspect-1/1"
-                src="/icons/job.png"
+                src="/icons/exam-color.png"
                 alt="career"
               />
             </div>
