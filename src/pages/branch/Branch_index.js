@@ -42,7 +42,7 @@ export default function Branch_index(props){
               />
             </div>
             <div className="feature-content text-center">
-              <h2 className={heading}>Assignments/Practicals</h2>
+              <h2 className={heading}>Syllabus</h2>
               <p className={para}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
                 sint fugiat totam et repudiandae error id saepe exercitationem.
