@@ -1,8 +1,8 @@
-import Branch_index from "../Branch_index"
+import Branch_template from "../Branch_template"
 export default function ece(){
     return(
         <>
-            <Branch_index Branch_Name="Electronics and Communication Engineering" Notes={"./ece/notes"}/>
+            <Branch_template name="Electronics and Communication Engineering"/>
         </>
     )
 }

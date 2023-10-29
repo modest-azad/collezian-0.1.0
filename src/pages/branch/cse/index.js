@@ -1,11 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
-import Branch_index from "../Branch_index"
-export default function cse(){
+import Branch_template from "../Branch_template";
+import Assignment from "./assignment";
 
- return(
-  <>
-    <Branch_index Branch_Name="Computer Science & Enigineering" Notes={"./cse/notes"}/>
-  </>
- )
+export default function cse(){
+    return(
+        <>
+            <Branch_template name="Computer Science and Engineering" />
+        </>
+    )
 }
