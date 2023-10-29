@@ -8,12 +8,12 @@ export default function Branch_index(props){
     return (
       <>
         <h1 className="text-center uppercase font-bold p-8 text-3xl text-gray-700">
-          {props.name}
+          {props.Branch_Name}
         </h1>
   
         <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:px-[10%]">
           {/* content - 1  */}
-          <Link href={props.notes} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-orange-100 text-orange-500 md:hover:shadow-xl hover:translate-y-[-1em] rounded-3xl">
+          <Link href={props.Notes} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-orange-100 text-orange-500 md:hover:shadow-xl hover:translate-y-[-1em] rounded-3xl">
             <div className={image}>
               <img
                 className="w-[40%] aspect-1/1"
