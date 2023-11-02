@@ -14,7 +14,7 @@ const hero = () => {
           Chat with our <strong>AI</strong> and download your <strong>Engineering</strong> study materials for free.
           </p>
           <Link
-            href=""
+            href="https://chat.whatsapp.com/IEzLC5bZosdE4JkjQyIIKk"
             className=" bg-blue-500 hover:bg-blue-700 text-white font-bold  px-6 py-4  rounded-3xl "
           >
             {" "}
