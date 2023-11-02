@@ -18,7 +18,7 @@ const hero = () => {
             className=" bg-blue-500 hover:bg-blue-700 text-white font-bold  px-6 py-4  rounded-3xl "
           >
             {" "}
-            coming soon{" "}
+            Join Community{" "}
           </Link>
         </div>
       </div>

@@ -61,7 +61,7 @@ export default function Navigation() {
                 </li>
                 <li className="max-sm:flex max-sm:justify-center">
                     <Link href="#" className="flex py-2 pl-3 pr-4 text-gray-500  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700"> 
-                    Blogs <div className="bg-red-400 animate-pulse ml-2 w-2 h-2 rounded-3xl">{""}</div>
+                        Results <div className="bg-red-700 animate-pulse ml-2 w-1 h-1 rounded-3xl">{""}</div>
                     </Link>
                 </li>
                 

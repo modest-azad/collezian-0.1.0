@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/styles.module.css";
 import Services from "../components/services";
+import Portals from "../components/Important_portal";
 
 export default function Home() {
   return (
@@ -91,6 +92,7 @@ export default function Home() {
       </Head>
       <main className="dark:bg-gray-100">
         <Hero />
+        <Portals/>
         <Services/>
       </main>
     </>
