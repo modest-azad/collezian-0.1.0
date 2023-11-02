@@ -12,7 +12,7 @@ export default function Branch_syllabus({ heading }) {
 
       {/* Table  */}
       <div className=" px-[5%] md:px-[10%] max-sm:text-center">
-        <h2 className="font-bold text-xl text-blue-500 py-4">Electrical Engineering (BEU)</h2>
+        <h2 className="font-bold text-xl text-blue-500 py-4">B.Tech | Bihar Engineering University</h2>
         <div className="text-sm grid grid-cols-1 gap-2 text-gray-700">
         <Link href="#">1st Semster EE Syllabus</Link>
         <Link href="#">2nd Semster EE Syllabus</Link>
@@ -27,7 +27,7 @@ export default function Branch_syllabus({ heading }) {
 
       <hr className="my-4" />
       <div className=" px-[5%] md:px-[10%] max-sm:text-center">
-        <h2 className="font-bold text-xl text-blue-500 py-4">Electrical Engineering (SBTE Bihar)</h2>
+        <h2 className="font-bold text-xl text-blue-500 py-4">Polytechnic | SBTE Bihar</h2>
         <div className="text-sm grid grid-cols-1 gap-2 text-gray-700">
         <Link href="#">1st Semster EE Syllabus</Link>
         <Link href="#">2nd Semster EE Syllabus</Link>

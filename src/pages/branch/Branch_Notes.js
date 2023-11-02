@@ -1,31 +1,9 @@
 import { useState } from "react";
+import Link from "next/link";
+import notes_api from "../../Backend/notes_api";
 
-const data = [{
-  key : 0,
-  branch:"ee",
-  subject_name:"subject-1",
-  describe:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus non expedita veritatis.",
-  upload_date:"1 day ago",
-},
-{
-key : 1,
-branch:"cse",
-subject_name:"subject-2",
-describe:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus non expedita veritatis.",
-upload_date:"2 day ago",
-
-},
-{
-key : 2,
-branch:"ee",
-subject_name:"subject-3",
-describe:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus non expedita veritatis.",
-upload_date:"3 day ago",
-
-},
-]
 export default function Branch_Notes(props) {
-  // const [currentData, setData] = useState(data)
+  const [currentData, setData] = useState(notes_api);
   return (
     <>
       <div className="w-full m-auto flex flex-col items-center">
@@ -46,27 +24,31 @@ export default function Branch_Notes(props) {
         </div>
 
         {/* contents  */}
-        <div className=" grid grid-cols-1 md:grid-cols-3 gap-10 md:px-[10%] px-[5%] py-[5%]">
-          {data.map((e)=>{
-                <div key={`${e.key}`}  className="card flex bg-blue-100 text-center shadow rounded-xl">
-                <div className="content p-4">
+        <div className=" grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-10 md:px-[10%] px-[5%] py-[5%]">
+          { notes_api.map((currentData)=>{
+            if(currentData.branch === "ee"){
+              return (
+                <div key={currentData.key} className="card flex bg-blue-100 text-center shadow rounded-xl transition-all duration-300 ease-in-out hover:translate-y-[-1em]">
+                <Link href={currentData.link} className="content p-4 ">
                   <h2 className="font-semibold text-lg">
-                     {`${e.subject_name}`}
+                     {currentData.subject_name}
                   </h2>
                   <h3 className="text-sm text-gray-700">
-                    {`${e.describe}`}
+                    {currentData.describe}
                   </h3>
                   <p className="py-2 text-sm  text-gray-700">
-                    Uploads: {`${e.upload_date}`}
+                    Uploads: {currentData.upload_date}
                   </p>
                   <div className=" text-sm user-feedback text-gray-700 flex justify-center gap-4 cursor-pointer">
-                    <div className="view-count pr-2"> 0 view</div>
+                    <div className="view-count pr-2">1 view</div>
                     <div className="like-count pr-2"> 0 Likes</div>
                     <div className="comment-count pr-2"> 0 Comments</div>
                   </div>
+                </Link>
                 </div>
-                </div>
-          })}
+              )
+            }
+            }) }
           
 
         </div>

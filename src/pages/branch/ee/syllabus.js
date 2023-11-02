@@ -1,7 +1,7 @@
 import Branch_syllabus from "../Branch_syllabus";
 
 export default function syllabus(){
-    const heading = "Syllabus Download"
+    const heading = "Electrical Engineering Syllabus"
     return (
         <>
             <Branch_syllabus heading={heading}/>

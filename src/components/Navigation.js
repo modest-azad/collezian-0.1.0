@@ -27,7 +27,7 @@ export default function Navigation() {
     }
   return (
     <>
-<nav className="sticky top-0 z-50 acrylic w-full center shadow ">
+<nav className=" acrylic w-full center shadow ">
     <div className="flex flex-wrap justify-between items-center mx-auto  p-4 ">
         <Link href="/" className="flex items-center">
             {/* <img  src="/images/book.png" className="h-12 mr-3 " alt="Collezian Logo" /> */}
@@ -67,7 +67,7 @@ export default function Navigation() {
                 
                 <li className="max-sm:pt-4 max-sm:flex max-sm:justify-center">
                   {/* Action button  */}
-    <Link  href="" className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-3xl "> Contribute </Link>
+    <Link  href="/contribution" className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-3xl "> Contribute </Link>
                 </li>
             </ul>
         </div>
