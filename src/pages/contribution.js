@@ -3,7 +3,7 @@ import { Alert, Button, Radio } from "flowbite-react";
 export default function Contribute(){
     return (
         <>
-                <div className=" container w-full m-auto grid  justify-center p-[5%]">
+                <div className=" container w-full m-auto grid  justify-center p-[10%]">
                     <form className="grid gap-4 ">
                         <input className=" bg-blue-100 mb-9" type="file"/>
                                                 

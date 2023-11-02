@@ -67,7 +67,7 @@ export default function Navigation() {
                 
                 <li className="max-sm:pt-4 max-sm:flex max-sm:justify-center">
                   {/* Action button  */}
-    <Link  href="/contribution" className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-3xl "> Contribute </Link>
+            <Link  href="/contribution" className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-3xl "> Contribute </Link>
                 </li>
             </ul>
         </div>
