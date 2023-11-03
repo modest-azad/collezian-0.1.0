@@ -17,7 +17,7 @@ function Portals(){
                     </a>
                     <a href="https://internship.aicte-india.org/" target="_blank" className="item transition-all duration-300 ease-in-out hover:translate-y-[-1em]">
                         <img className="w-full p-4 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbnc1-B3W16TYnS90yvfhDhyRfpKdNQO1V2dbvLuA-8Q&s"   alt="image" />
-                        <h2>AICTE Internship</h2>
+                        <h2>National Internship Portal</h2>
                     </a>
                     <a href="https://scholarships.gov.in/" target="_blank" className="item transition-all duration-300 ease-in-out hover:translate-y-[-1em]">
                         <img className="w-full p-4 rounded-full" src="/images/readingBook.png" alt="image" />
