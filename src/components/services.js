@@ -5,7 +5,7 @@ function services() {
   var para = "para text-sm text-gray-600 ";
   return (
     <>
-      <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:px-[10%]">
+      <div className="service w-full m-auto grid grid-rows-auto grid-cols-3 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:px-[10%]">
         {/* feature - 1  */}
         <div className="feature col-span-4 max-sm:m-8 p-4 md:shadow transition-all duration-300 ease-in-out bg-orange-100 hover:text-orange-500 md:hover:shadow rounded-3xl">
           <div className={image}>
