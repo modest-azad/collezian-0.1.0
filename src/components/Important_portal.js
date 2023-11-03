@@ -6,9 +6,9 @@ function Portals(){
         <>
                 <h1 id="portal-links" className="text-center text-2xl md:text-3xl font-semibold my-4">Important Portal</h1>
             <div className="important-portal rounded-3xl md:mx-[10%]">
-                <div className="items text-center text-xs grid grid-cols-3 justify-center lg:grid-cols-6  gap-5 py-9 px-[5%]">
+                <div className="items text-center text-xs grid grid-cols-4 justify-center lg:grid-cols-6  gap-5 py-9 px-[5%]">
                 <a href="http://beu-bih.ac.in/" target="_blank" className="item transition-all duration-300 ease-in-out hover:translate-y-[-1em] ">
-                        <img className="w-full p-4 rounded-full" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fcompany%2Fbeupatna&psig=AOvVaw1npVdu0SZ6rOoBPpPJLS1m&ust=1699074042072000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCPjI6JeGp4IDFQAAAAAdAAAAABAE" alt="image" />
+                        <img className="w-full p-4 rounded-full" src="https://media.licdn.com/dms/image/D4D0BAQFFZt-FTCDSsA/company-logo_200_200/0/1697210098603/beupatna_logo?e=2147483647&v=beta&t=TZvQPymtB1cGXerbClj2CyA9bmVwq3mVJvpPEwE2LB4" alt="image" />
                         <h2>BEU</h2>
                     </a>
                 <a href="https://nptel.ac.in/" target="_blank" className="item transition-all duration-300 ease-in-out hover:translate-y-[-1em] ">
