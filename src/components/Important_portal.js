@@ -4,7 +4,7 @@ function Portals(){
 
     return(
         <>
-                <h1 id="portal-links" className="text-center text-2xl md:text-3xl font-semibold my-4">Govt. Portal</h1>
+                <h1 id="portal-links" className="text-center text-2xl md:text-3xl font-semibold">Govt. Portal</h1>
             <div className="important-portal rounded-3xl md:mx-[10%]">
                 <div className="items text-center text-xs grid grid-cols-4 justify-center lg:grid-cols-6  gap-5 py-9 px-[5%]">
                 <a href="http://beu-bih.ac.in/" target="_blank" className="item transition-all duration-300 ease-in-out hover:translate-y-[-1em] ">
