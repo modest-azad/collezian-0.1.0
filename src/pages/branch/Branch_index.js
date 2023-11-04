@@ -13,7 +13,7 @@ export default function Branch_index({name, notes, syllabus, pyq }){
   
         <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:px-[10%]">
           {/* content - 1  */}
-          <Link href={`${notes}`} className="feature col-span-4 max-sm:m-8 p-4  bg-orange-100 text-orange-500 md:hover:shadow-xl transition-all duration-300 ease-in-out hover:translate-y-[-1em] rounded-3xl">
+          <Link href={`${notes}`} className="feature col-span-4 max-sm:m-8 p-4  bg-orange-100 text-orange-500 md:hover:shadow-xl transition-all duration-300 ease-in-out md:hover:translate-y-[-1em] rounded-3xl">
             <div className={image}>
               <img
                 className="w-[40%] aspect-1/1"
@@ -31,7 +31,7 @@ export default function Branch_index({name, notes, syllabus, pyq }){
           </Link>
   
           {/* content - 2 */}
-          <Link href={`${syllabus}`} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-gray-100 text-gray-500 md:hover:shadow-xl hover:translate-y-[-1em] rounded-3xl">
+          <Link href={`${syllabus}`} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-gray-100 text-gray-500 md:hover:shadow-xl md:hover:translate-y-[-1em] rounded-3xl">
             <div className={image}>
               <img
                 className="w-[40%] aspect-1/1"
@@ -48,7 +48,7 @@ export default function Branch_index({name, notes, syllabus, pyq }){
           </Link>
   
           {/* content - 3  */}
-          <Link href={`${pyq}`} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-green-100 text-green-500 md:hover:shadow-xl hover:translate-y-[-1em] rounded-3xl">
+          <Link href={`${pyq}`} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-green-100 text-green-500 md:hover:shadow-xl md:hover:translate-y-[-1em] rounded-3xl">
             <div className={image}>
               <img
                 className=" w-[40%] aspect-1/1"
