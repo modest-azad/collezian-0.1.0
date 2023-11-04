@@ -4,9 +4,9 @@ function Portals(){
 
     return(
         <>
-                <h1 id="portal-links" className="text-center text-2xl md:text-3xl font-semibold">Govt. Portal</h1>
-            <div className="important-portal rounded-3xl md:mx-[10%]">
-                <div className="items text-center text-xs grid grid-cols-4 justify-center lg:grid-cols-6  gap-5 py-9 px-[5%]">
+                <h1 id="portal-links" className=" text-center m-autotext-xl md:text-2xl font-semibold">Government Official Portals</h1>
+            <div className="important-portal">
+                <div className="items md:mx-[10%] text-center text-xs grid grid-cols-4 justify-center lg:grid-cols-7  gap-5 py-9 px-[5%]">
                 <a href="http://beu-bih.ac.in/" target="_blank" className="item transition-all duration-300 ease-in-out hover:translate-y-[-1em] ">
                         <img className="w-full p-4 rounded-full" src="https://media.licdn.com/dms/image/D4D0BAQFFZt-FTCDSsA/company-logo_200_200/0/1697210098603/beupatna_logo?e=2147483647&v=beta&t=TZvQPymtB1cGXerbClj2CyA9bmVwq3mVJvpPEwE2LB4" alt="image" />
                         <h2>BEU</h2>
@@ -20,11 +20,11 @@ function Portals(){
                         <h2>National Internship Portal</h2>
                     </a>
                     <a href="https://scholarships.gov.in/" target="_blank" className="item transition-all duration-300 ease-in-out hover:translate-y-[-1em]">
-                        <img className="w-full p-4 rounded-full" src="/images/readingBook.png" alt="image" />
+                        <img className="w-full p-4 rounded-full" src="/images/happy-graduation.png" alt="image" />
                         <h2>National Scholarship Portal</h2>
                     </a>
                     <a href="https://pmsonline.bih.nic.in/" target="_blank" className="item transition-all duration-300 ease-in-out hover:translate-y-[-1em]">
-                        <img className="w-full p-4 rounded-full" src="/images/readingBook.png" alt="image" />
+                        <img className="w-full p-4 rounded-full" src="/images/happy-graduation.png" alt="image" />
                         <h2>Post-Metric Scholarship</h2>
                     </a>
                     <a href="https://ndl.iitkgp.ac.in/" target="_blank" className="item transition-all duration-300 ease-in-out hover:translate-y-[-1em]">
