@@ -30,8 +30,8 @@ export default function Navigation() {
 <nav className="sticky top-0 acrylic w-full center shadow ">
     <div className="flex flex-wrap justify-between items-center mx-auto  p-4 ">
         <Link href="/" className="flex items-center">
-            <img  src="/images/developerDP.jpeg" className="h-12 mr-3 rounded-full " alt="Logo" />
-            <span className=" self-center text-xl font-semibold whitespace-nowrap light:text-gray-900 ">Collezian</span>
+            <img  src="/images/collezian-logo.png" className="h-12 mr-3 rounded-full " alt="Logo" />
+            {/* <span className=" self-center text-xl font-semibold whitespace-nowrap light:text-gray-900 ">Collezian</span> */}
         </Link>
         <button  data-collapse-toggle="mega-menu-full" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-600 rounded-xl md:hidden hover:bg-gray-100 focus:outline-none ring-2 ring-gray-200 light:text-gray-400 light:hover:bg-gray-700 light:focus:ring-gray-600" aria-controls="mega-menu-full" aria-expanded="false" onClick={hamburger}>
             <span className="sr-only">Open main menu</span>

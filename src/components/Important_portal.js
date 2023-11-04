@@ -21,7 +21,7 @@ function Portals() {
               src="https://media.licdn.com/dms/image/D4D0BAQFFZt-FTCDSsA/company-logo_200_200/0/1697210098603/beupatna_logo?e=2147483647&v=beta&t=TZvQPymtB1cGXerbClj2CyA9bmVwq3mVJvpPEwE2LB4"
               alt="image"
             />
-            <h2>BEU</h2>
+            <h2>BEU Patna</h2>
           </a>
           <a
             href="https://nptel.ac.in/"
