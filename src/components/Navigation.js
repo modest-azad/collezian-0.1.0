@@ -57,7 +57,7 @@ export default function Navigation() {
                 </li>
                
                 <li className="max-sm:flex max-sm:justify-center">
-                    <Link href="#" className="block py-2 pl-3 pr-4 text-gray-500  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
+                    <Link href="https://chat.whatsapp.com/DPyHjemxvt17fbhSFMIVYw" className="block py-2 pl-3 pr-4 text-gray-500  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
                         Off-Campus Jobs</Link>
                 </li>
                 <li className="max-sm:flex max-sm:justify-center">
