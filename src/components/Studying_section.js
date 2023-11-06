@@ -10,9 +10,10 @@ export default function Studying(){
 
     return (
       <div className="my-20">
-      <h1 id="portal-links" className=" text-center m-auto text-xl md:text-2xl font-semibold my-4">
-        Engineering Branch
+      <h1 id="portal-links" className=" uppercase text-xl md:text-2xl text-center font-semibold m-auto my-4 py-2">
+        Engineering Branch 
       </h1>
+      
       
         <div className=" service w-full m-auto grid grid-rows-auto  grid-cols-1 md:grid-cols-3 gap-4 md:gap-8  px-[5%]">
           
