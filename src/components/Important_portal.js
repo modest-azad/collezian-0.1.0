@@ -5,12 +5,12 @@ function Portals() {
     <>
       <h1
         id="portal-links"
-        className=" text-center m-autotext-xl md:text-2xl font-semibold my-4"
+        className=" text-center m-auto text-xl md:text-2xl font-semibold my-4"
       >
         Government Official Portals
       </h1>
-      <div className="important-portal bg-[#F4F6FC]">
-        <div className="items md:mx-[10%] text-gray-700 text-center text-xs grid grid-cols-4 justify-center lg:grid-cols-8  md:gap-5 py-4  px-[5%]">
+      <div className="important-portal bg-blue-500">
+        <div className="items md:mx-[10%] text-gray-200 text-center text-xs grid grid-cols-4 justify-center lg:grid-cols-8  md:gap-5 py-4  px-[5%]">
           <a
             href="http://beu-bih.ac.in/"
             target="_blank"

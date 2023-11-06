@@ -1,19 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 export default function Branch_index({name, notes, syllabus, pyq }){
-    var heading = "py-4 font-semibold text-xl";
-    var image = " feature-image md:h-[40%] md:pt-4 flex justify-center items-center";
+    var heading = " font-semibold py-2 text-xl";
+    var image = " feature-image md:pt-4 flex justify-center items-center";
     var para = "para text-sm text-gray-500 ";
   
     return (
       <>
-        <h1 className="text-center uppercase font-bold p-8 text-3xl text-gray-700">
+        <h1 className="text-center uppercase font-bold p-8 text-4xl text-gray-700">
           {name}
         </h1>
   
         <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:px-[10%]">
           {/* content - 1  */}
-          <Link href={`${notes}`} className="feature col-span-4 max-sm:m-8 p-4  bg-orange-100 text-orange-500 md:hover:shadow-xl transition-all duration-300 ease-in-out md:hover:translate-y-[-1em] rounded-3xl">
+          <Link href={`${notes}`} className="feature col-span-4  p-4  bg-[#F4F6FC] text-gray-500 md:hover:shadow-xl rounded-3xl">
             <div className={image}>
               <img
                 className="w-[40%] aspect-1/1"
@@ -31,7 +31,7 @@ export default function Branch_index({name, notes, syllabus, pyq }){
           </Link>
   
           {/* content - 2 */}
-          <Link href={`${syllabus}`} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-gray-100 text-gray-500 md:hover:shadow-xl md:hover:translate-y-[-1em] rounded-3xl">
+          <Link href={`${syllabus}`} className="feature col-span-4  p-4  bg-[#F4F6FC] text-gray-500 md:hover:shadow-xl  rounded-3xl">
             <div className={image}>
               <img
                 className="w-[40%] aspect-1/1"
@@ -48,7 +48,7 @@ export default function Branch_index({name, notes, syllabus, pyq }){
           </Link>
   
           {/* content - 3  */}
-          <Link href={`${pyq}`} className="feature col-span-4 max-sm:m-8 p-4 transition-all duration-300 ease-in-out bg-green-100 text-green-500 md:hover:shadow-xl md:hover:translate-y-[-1em] rounded-3xl">
+          <Link href={`${pyq}`} className="feature col-span-4  p-4  bg-[#F4F6FC] text-gray-500 md:hover:shadow-xl  rounded-3xl">
             <div className={image}>
               <img
                 className=" w-[40%] aspect-1/1"
