@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 const hero = () => {
   return (
     <>
-      <div className=" dark:bg-black  w-full py-[6em] flex flex-wrap justify-center items-center ">
+      <div className="  w-full h-[70vh] flex flex-wrap justify-center items-center ">
         <div className="box text-center p-4">
           <div className="headline text-l  text-blue-500 p-2">Student{"'"}s</div>
           <div className="headline text-5xl py-2 md:text-6xl font-black dark:text-gray-100">

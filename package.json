@@ -1,6 +1,6 @@
 {
   "name": "Collezian",
-  "version": "23.10.21",
+  "version": "23.11.06",
   "private": true,
   "scripts": {
     "dev": "next dev",
