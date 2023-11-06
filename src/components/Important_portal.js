@@ -9,8 +9,8 @@ function Portals() {
       >
         Government Official Portals
       </h1>
-      <div className="important-portal bg-blue-100">
-        <div className="items md:mx-[10%] text-center text-xs grid grid-cols-4 justify-center lg:grid-cols-7  md:gap-5 py-4 my-4 px-[5%]">
+      <div className="important-portal bg-[#F4F6FC]">
+        <div className="items md:mx-[10%] text-center text-xs grid grid-cols-4 justify-center lg:grid-cols-8  md:gap-5 py-4 my-4 px-[5%]">
           <a
             href="http://beu-bih.ac.in/"
             target="_blank"
@@ -22,6 +22,18 @@ function Portals() {
               alt="image"
             />
             <h2>BEU Patna</h2>
+          </a>
+          <a
+            href="https://sbteonline.in/"
+            target="_blank"
+            className="item transition-all duration-300 ease-in-out md:hover:translate-y-[-1em] "
+          >
+            <img
+              className="w-full p-4 rounded-full"
+              src="https://sbteonline.in/VAADIN/themes/ems/img/sbte.png"
+              alt="image"
+            />
+            <h2>SBTE Bihar</h2>
           </a>
           <a
             href="https://nptel.ac.in/"
@@ -66,7 +78,7 @@ function Portals() {
           >
             <img
               className="w-full p-4"
-              src="/icons/apple.png"
+              src="/logo/fav-dark.png"
               alt="image"
             />
             <h2>National Scholarship Portal</h2>
@@ -78,7 +90,7 @@ function Portals() {
           >
             <img
               className="w-full p-4"
-              src="/icons/apple.png"
+              src="/logo/fav-dark.png"
               alt="image"
             />
             <h2>Post-Metric Scholarship</h2>
