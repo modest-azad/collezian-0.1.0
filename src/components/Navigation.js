@@ -27,13 +27,13 @@ export default function Navigation() {
     }
   return (
     <>
-<nav className="sticky top-0 acrylic w-full center md:px-10 p-4 outline outline-1 outline-gray-200 ">
+<nav className="sticky top-0 acrylic w-full center md:px-10 p-2 outline outline-1 outline-gray-200 ">
     <div className="flex flex-wrap justify-between items-center mx-auto">
         <Link href="/" className="flex items-center">
             <img  src="/logo/Collezian_Official_Logo_DARK.png" className="h-12 mr-3 rounded-full " alt="Logo" />
             {/* <span className=" self-center text-xl font-semibold whitespace-nowrap light:text-gray-900 ">Collezian</span> */}
         </Link>
-        <button  data-collapse-toggle="mega-menu-full" type="button" className="inline-flex outline-none items-center p-2 w-12 h-12 justify-center text-sm text-[#050A30] rounded-xl md:hidden light:text-gray-400 light:hover:bg-gray-700 " aria-controls="mega-menu-full" aria-expanded="false" onClick={hamburger}>
+        <button  data-collapse-toggle="mega-menu-full" type="button" className="inline-flex outline-none items-center p-2 w-10 h-10 justify-center text-sm text-[#050A30] rounded-xl md:hidden light:text-gray-400 light:hover:bg-gray-700 " aria-controls="mega-menu-full" aria-expanded="false" onClick={hamburger}>
             <span className="sr-only">Open main menu</span>
             <svg id="hambuger" className="w-full h-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
