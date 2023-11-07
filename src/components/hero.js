@@ -15,7 +15,7 @@ const hero = () => {
           </p>
           <Link
             href="https://chat.whatsapp.com/IEzLC5bZosdE4JkjQyIIKk"
-            className=" outline outline-1 outline-[#00684A] rounded-3xl bg-[#00ed64] text-[#001e2b] font-bold  px-6 py-4"
+            className="  rounded-3xl bg-[#00ed64] hover:shadow text-[#001e2b] font-bold  px-6 py-4"
           >
             {" "}
             Join Community{" "}
