@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "../styles/styles.module.css";
 import Services from "../components/services";
 import Portals from "../components/Important_portal";
-import Studying from "../components/Studying_section";
+import Engineering from "./Engineering";
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
         <Hero />
         <Portals/>
         {/* <Services/> */}
-        <Studying/>
+        <Engineering/>
       </main>
     </>
   );

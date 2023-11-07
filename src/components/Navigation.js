@@ -47,18 +47,21 @@ export default function Navigation() {
                         Home
                     </Link>
                 </li>
-                <li  className="max-sm:flex max-sm:justify-center">
+                {/* <li  className="max-sm:flex max-sm:justify-center">
                     <span>
                     <button  id="mega-menu-full-dropdown-button" data-collapse-toggle="mega-menu-full-dropdown" className="flex items-center justify-between w-full py-2 pl-3 pr-4  text-gray-500 rounded-xl md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700"
                     onClick={showHide}
                     >Studying<svg className="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
   </svg></button></span>
+                </li> */}
+               <li className="max-sm:flex max-sm:justify-center">
+                    <Link href="/Engineering" className="block py-2 pl-3 pr-4 text-gray-500  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
+                        Engineering</Link>
                 </li>
-               
                 <li className="max-sm:flex max-sm:justify-center">
                     <Link href="https://chat.whatsapp.com/DPyHjemxvt17fbhSFMIVYw" className="block py-2 pl-3 pr-4 text-gray-500  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
-                        Off-Campus Jobs</Link>
+                        Career</Link>
                 </li>
                 <li className="max-sm:flex max-sm:justify-center">
                     <Link href="#" className="flex py-2 pl-3 pr-4 text-gray-500  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700"> 
@@ -77,7 +80,7 @@ export default function Navigation() {
    
 </nav>
  {/* Mega DropDown Menu For all branch */}
- <div id="mega-menu-full-dropdown" className={`" ${currentState}  z-50 py-5 mt-2 sticky top-0  w-full rounded-3xl acrylic border-gray-200 shadow-sm border-y light:bg-gray-800 light:border-gray-600"`} onClick={hamburger} >
+ {/* <div id="mega-menu-full-dropdown" className={`" ${currentState}  z-50 py-5 mt-2 sticky top-0  w-full rounded-3xl acrylic border-gray-200 shadow-sm border-y light:bg-gray-800 light:border-gray-600"`} onClick={hamburger} >
         <div className="grid px-4 py-5 mx-auto  text-gray-900  sm:grid-cols-2 ">
             <ul>
                 <li onClick={showHide} >
@@ -126,7 +129,7 @@ export default function Navigation() {
                 </li>
             </ul>
         </div>
-    </div>
+    </div> */}
     
     </>
   );
