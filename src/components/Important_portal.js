@@ -5,7 +5,7 @@ function Portals() {
     <>
       <h1
         id="portal-links"
-        className="text-blue-600 max-md:text-center m-auto md:text-2xl text-center font-semibold"
+        className="font-[rosmatika]  text-blue-600 max-md:text-center m-auto md:text-2xl text-center font-semibold"
       >
         Government Official Portals
       </h1>

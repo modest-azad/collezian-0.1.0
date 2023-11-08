@@ -5,7 +5,7 @@ export default function Branch_syllabus({ heading }) {
     <>
     <div className="min-h-screen">
       <div>
-        <h2 className="headline text-center font-bold text-2xl p-8">
+        <h2 className="font-[rosmatika] headline text-center font-bold text-2xl p-8">
           {heading}
         </h2>
       </div>

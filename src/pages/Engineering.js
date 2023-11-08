@@ -47,7 +47,7 @@ export default function Engineering(){
 
     return (
       <div className="h-full">
-      <h1 id="portal-links" className=" text-blue-600 max-md:text-center text-2xl text-center font-semibold m-auto my-4 py-2">
+      <h1 id="portal-links" className="font-[rosmatika]  text-blue-600 max-md:text-center text-2xl text-center font-semibold m-auto my-4 py-2">
         Choose Branch 
       </h1>
     

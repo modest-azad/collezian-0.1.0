@@ -8,7 +8,7 @@ const Hero = () => {
       
         <div className="box text-center ">
           <div className="headline text-sm text-gray-700 ">Student{"'"}s</div>
-          <div className="headline font-[calligraphy] text-6xl py-4 font-black text-[#050a30]">
+          <div className="headline font-[rosmatika] text-6xl py-4 font-black text-[#050a30]">
             Collezian Community
           </div>
           <p className="Description break-words text-sm text-gray-700 mb-10">

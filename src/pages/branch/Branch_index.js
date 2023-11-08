@@ -8,7 +8,7 @@ export default function Branch_index({name, notes, syllabus, pyq }){
   
     return (
       <>
-        <h1 className="text-center font-bold p-8 text-3xl text-blue-600">
+        <h1 className="font-[rosmatika] text-center font-bold p-8 text-3xl text-blue-600">
           {name}
         </h1>
       <hr/>

@@ -20,8 +20,7 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         {/* fonts  */}
         <link href='https://fonts.googleapis.com/css?family=Poppins'  rel='stylesheet'/>
-        {/* <link href="https://fonts.cdnfonts.com/css/rosmatika" rel="stylesheet"/> */}
-        <link href="https://fonts.cdnfonts.com/css/calligraphy" rel="stylesheet"/>     
+        <link href="https://fonts.cdnfonts.com/css/rosmatika" rel="stylesheet"/> 
         <link rel="manifest" href="/site.webmanifest"/>
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
