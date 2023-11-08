@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 ::selection{
-    background-color:transparent;
+    color:#00ED64;
+    
 }
 
 .acrylic{

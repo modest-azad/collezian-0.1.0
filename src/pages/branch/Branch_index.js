@@ -1,22 +1,25 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import Image from "next/image";
 export default function Branch_index({name, notes, syllabus, pyq }){
-    var heading = " font-semibold py-2 text-xl";
+    var heading = " font-semibold py-2 text-xl text-[#0f0f0f]";
     var image = " feature-image md:pt-4 flex justify-center items-center";
-    var para = "para text-sm text-gray-500 ";
+    var para = " hidden para text-sm text-gray-700 ";
   
     return (
       <>
-        <h1 className="text-center uppercase font-bold p-8 text-4xl text-gray-700">
+        <h1 className="text-center font-bold p-8 text-3xl text-blue-600">
           {name}
         </h1>
-  
-        <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 p-[5%] md:px-[10%]">
+      <hr/>
+        <div className="service w-full m-auto grid grid-rows-auto grid-cols-1 md:grid-cols-12 gap-6 md:gap-16 p-[5%] md:px-[10%]">
           {/* content - 1  */}
           <Link href={`${notes}`} className="feature col-span-4  p-4  bg-[#F4F6FC] text-gray-500 md:hover:shadow-xl rounded-3xl">
+            
+          <div className="text-3xl absolute text-blue-400 ring-2 ring-blue-400 rounded-full h-10 w-10 flex justify-center items-center">1</div>
             <div className={image}>
-              <img
-                className="w-[40%] aspect-1/1"
+              <Image width={100} height={100}
+                className="aspect-1/1"
                 src="/icons/notebook.png"
                 alt="notebook"
               />
@@ -32,9 +35,10 @@ export default function Branch_index({name, notes, syllabus, pyq }){
   
           {/* content - 2 */}
           <Link href={`${syllabus}`} className="feature col-span-4  p-4  bg-[#F4F6FC] text-gray-500 md:hover:shadow-xl  rounded-3xl">
+            <div className="text-3xl absolute text-blue-400 ring-2 ring-blue-400 rounded-full h-10 w-10 flex justify-center items-center">2</div>
             <div className={image}>
-              <img
-                className="w-[40%] aspect-1/1"
+            <Image width={100} height={100}
+                className="aspect-1/1"
                 src="/icons/syllabus.png"
                 alt="Study_Materials"
               />
@@ -49,9 +53,11 @@ export default function Branch_index({name, notes, syllabus, pyq }){
   
           {/* content - 3  */}
           <Link href={`${pyq}`} className="feature col-span-4  p-4  bg-[#F4F6FC] text-gray-500 md:hover:shadow-xl  rounded-3xl">
+            
+          <div className="text-3xl absolute text-blue-400 ring-2 ring-blue-400 rounded-full h-10 w-10 flex justify-center items-center">3</div>
             <div className={image}>
-              <img
-                className=" w-[40%] aspect-1/1"
+            <Image width={100} height={100}
+                className="aspect-1/1"
                 src="/icons/exam-color.png"
                 alt="career"
               />

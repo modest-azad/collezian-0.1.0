@@ -1,4 +1,6 @@
-import Hero from "../components/hero";
+/* eslint-disable @next/next/google-font-display */
+/* eslint-disable @next/next/no-page-custom-font */
+import Hero from "../components/Hero_section";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/styles.module.css";
@@ -16,6 +18,10 @@ export default function Home() {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        {/* fonts  */}
+        <link href='https://fonts.googleapis.com/css?family=Poppins'  rel='stylesheet'/>
+        {/* <link href="https://fonts.cdnfonts.com/css/rosmatika" rel="stylesheet"/> */}
+        <link href="https://fonts.cdnfonts.com/css/calligraphy" rel="stylesheet"/>     
         <link rel="manifest" href="/site.webmanifest"/>
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
@@ -26,11 +32,11 @@ export default function Home() {
         />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <main className="dark:bg-gray-100">
+      <main className="px-[5%]">
         <Hero />
         <Portals/>
         {/* <Services/> */}
-        <Engineering/>
+        {/* <Engineering/> */}
       </main>
     </>
   );
