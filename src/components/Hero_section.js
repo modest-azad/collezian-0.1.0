@@ -21,6 +21,8 @@ const Hero = () => {
             {" "}
             Join Community{" "}
           </Link>
+           <Link className="rounded-full  text-blue-400 font-bold " href="/chat_ai">AI</Link>
+
         </div>
       </div>
     </>

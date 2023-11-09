@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 ::selection{
-    color:#00ED64;
+   background-color: orangered;
     
 }
 
