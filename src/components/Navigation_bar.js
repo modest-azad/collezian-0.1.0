@@ -61,7 +61,7 @@ const hamburger = ()=>{
                 
                 <li className="max-sm:pt-4 max-sm:flex max-sm:justify-center">
                   {/* Action button  */}
-            <Link  href="/contribution" className="ring-2 ring-blue-500 bg-blue-100 shadow hover:shadow-xl font-semibold py-2 px-4 rounded-3xl "> Contribute </Link>
+            <Link  href="/contribution" className="ring-2 ring-blue-500 bg-blue-100 shadow hover:shadow-xl font-semibold py-2 px-4 rounded-3xl "> Upload File </Link>
                 </li>
             </ul>
             <div className="social-icons flex justify-center max-sm:mb-4">
