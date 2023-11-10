@@ -45,7 +45,7 @@ export default function Engineering(){
     var para = "para hidden text-sm text-zinc-600 ";
 
     return (
-      <div className="h-screen w-full">
+      <div className="min-h-screen w-full">
       <h1 id="portal-links" className=" text-blue-600 max-md:text-center text-xl text-center font-bold m-auto my-4 py-2">
         Choose Branch 
       </h1>
