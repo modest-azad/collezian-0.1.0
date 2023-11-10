@@ -37,7 +37,7 @@ export default function Contribute(){
 
                         <button onClick={()=>{
                             window.alert("Uploading...")
-                        }} className="  bg-blue-500 hover:bg-blue-700 text-[#0f0f0f] font-bold mx-10 my-4 py-4 px-4 rounded-3xl">Upload</button>
+                        }} className="  ring-2 ring-blue-500 bg-blue-100 text-[#0f0f0f] font-bold mx-10 my-4 py-4 px-4 rounded-3xl">Upload</button>
                         </form>
                     </div>
                     
