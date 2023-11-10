@@ -1,19 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 
 export default function Contribute(){
-    var input = " rounded-xl w-full text-sm p-4 my-1 bg-gray-100"
+    var input = " rounded-xl w-full text-sm p-4 my-1 bg-zinc-100"
     return (
         <>
-                <div className="text-center m-auto h-full grid grid-cols-1 lg:grid-cols-12  justify-center">
-                    <div className="bg-blue-400 md:col-span-6 flex justify-center items-center">
-                        <img className="max-md:hidden w-[50%]" src="/logo/Collezian_Official_logo_LIGHT.png" alt="logo"/>
+                <div className="max-w-[1360px] text-center m-auto h-full grid grid-cols-1 lg:grid-cols-12  justify-center">
+                    <div className="bg-blue-600 md:col-span-4 flex justify-center items-center">
+                        <img className="w-[50%] p-4" src="/logo/Collezian_Official_logo_LIGHT.png" alt="logo"/>
                     </div>
-                    <div className="form-container md:col-span-6 w-full">
-                        <h2 className="text-center font-bold text-3xl my-4 text-blue-400">Upload Files</h2> 
+                    <div className="form-container md:col-span-8 w-full">
+                        <h2 className="text-center font-bold text-2xl my-4 text-blue-600">Upload Files</h2> 
 
-                        <form className="grid gap-2  justify-center px-4 ">
+                        <form className="grid gap-2 justify-center">
                         <hr/>
-                        <p className="text-gray-700 pt-4 font-semibold">Your email<span className="text-red-400">*</span></p>
+                        <p className="text-zinc-700 text-sm font-semibold text-left px-4 ">Your email<span className="text-red-400">*</span></p>
                         <input className={input} type="email" required name="email" id="tittle" placeholder="example@gmail.com"/>
 
                         <input className={input} name="link" type="text" placeholder="Paste link here or Choose File"/>
@@ -29,15 +29,13 @@ export default function Contribute(){
                             <option value="me">Mechanical Engineering</option>
                         </select>
 
-                        <p className="text-gray-700 pt-4 font-semibold">Add Tittle<span className="text-red-400">*</span></p>
+                        <p className="text-zinc-700 text-sm font-semibold pt-4">Add Tittle<span className="text-red-400">*</span></p>
                         <input className={input} type="text"  required name="tittle" id="tittle" placeholder="ex-DBMS, Digital Signal Notes"/>
 
-                        <p className="text-gray-700  pt-4 font-semibold">Add Description</p>
-                        <textarea className="p-4 rounded-xl w-full text-sm min-h-30  bg-gray-100" required type="text-area" name="description" id="description" placeholder="Add description" />
+                        <p className="text-zinc-700 text-sm font-semibold  pt-4 ">Add Description</p>
+                        <textarea className="p-4 rounded-xl w-full text-sm min-h-30  bg-zinc-100" required type="text-area" name="description" id="description" placeholder="Add description" />
 
-                        <button onClick={()=>{
-                            window.alert("Uploading...")
-                        }} className="  ring-2 ring-blue-500 bg-blue-100 text-[#0f0f0f] font-bold mx-10 my-4 py-4 px-4 rounded-3xl">Upload</button>
+                        <button className="  ring-2 ring-blue-500 bg-blue-100 text-[#0f0f0f] font-bold mx-10 my-4 py-4 px-4 rounded-3xl">Upload</button>
                         </form>
                     </div>
                     
