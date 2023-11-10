@@ -7,10 +7,6 @@
     margin:0; padding:0;
     box-sizing: border-box;
 }
-::selection{
-   background-color: orangered;
-    
-}
 
 .acrylic{
     backdrop-filter: blur(80px) saturate(180%);

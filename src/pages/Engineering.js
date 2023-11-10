@@ -42,12 +42,12 @@ export default function Engineering(){
 
     var card = "feature flex items-center p-4 transition-all duration-300 ease-in-out hover:ring-1  ring-blue-400 bg-gray-100 hover:bg-blue-100 shadow hover:shadow-xl text-gray-700  rounded-3xl"
     var image = "w-16 aspect-1/1 feature-image  flex justify-center items-center mx-6";
-    var heading = "py-2 text-[#0f0f0f] font-semibold ";
+    var heading = "py-2 text-[#0f0f0f] ";
     var para = "para hidden text-sm text-gray-600 ";
 
     return (
-      <div className="h-full">
-      <h1 id="portal-links" className="font-[rosmatika]  text-blue-600 max-md:text-center text-2xl text-center font-semibold m-auto my-4 py-2">
+      <div className="h-[full] w-full">
+      <h1 id="portal-links" className=" text-blue-600 max-md:text-center text-xl text-center font-bold m-auto my-4 py-2">
         Choose Branch 
       </h1>
     

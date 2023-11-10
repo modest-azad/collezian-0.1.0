@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/google-font-display */
 /* eslint-disable @next/next/no-page-custom-font */
-import Hero from "../components/Hero_section";
+import Hero from "../components/Home";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/styles.module.css";
-import Services from "../components/services";
+import Services from "../components/Features";
 import Portals from "../components/Important_portal";
 import Engineering from "./Engineering";
 
@@ -33,8 +33,8 @@ export default function Home() {
       </Head>
       <main className="px-[5%]">
         <Hero />
+        <Services/>
         <Portals/>
-        {/* <Services/> */}
         {/* <Engineering/> */}
       </main>
     </>

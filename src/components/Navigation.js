@@ -26,7 +26,7 @@ export default function Navigation() {
             <img  src="/logo/Collezian_Official_Logo_DARK.png" className="h-14 mr-3 rounded-full " alt="Logo" />
             {/* <span className=" self-center text-xl font-semibold whitespace-nowrap light:text-gray-900 ">Collezian</span> */}
         </Link>
-        <button  data-collapse-toggle="mega-menu-full" type="button" className="inline-flex outline-none items-center p-2 w-10 h-10 justify-center text-sm text-[#050A30] rounded-xl md:hidden light:text-gray-400 light:hover:bg-gray-700 " 
+        <button  data-collapse-toggle="mega-menu-full" type="button" className="inline-flex outline-none items-center p-2 w-10 h-10 justify-center text-sm text-[#050A30] rounded-xl md:hidden light:text-gray-500 light:hover:bg-gray-700 " 
         aria-controls="mega-menu-full" aria-expanded="false" onMouseEnter={hamburger} onMouseLeave={hamburger}>
             <span className="sr-only">Open main menu</span>
             <svg id="hambuger" className="w-full h-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -65,7 +65,7 @@ export default function Navigation() {
                 
                 <li className="max-sm:pt-4 max-sm:flex max-sm:justify-center">
                   {/* Action button  */}
-            <Link  href="/contribution" className="ring-2 ring-blue-400 bg-blue-100 shadow hover:shadow-xl font-bold py-2 px-4 rounded-3xl "> Contribute </Link>
+            <Link  href="/contribution" className="ring-2 ring-blue-500 bg-blue-100 shadow hover:shadow-xl font-bold py-2 px-4 rounded-3xl "> Contribute </Link>
                 </li>
             </ul>
             <div className="social-icons flex justify-center max-sm:mb-4">
@@ -79,7 +79,7 @@ export default function Navigation() {
                             <Image src="/icons/linkedin.png" width={30} height={30} alt=""/>
                         </Link>
                             
-                    </div>
+        </div>
         </div>
         
     </div>
@@ -92,19 +92,19 @@ export default function Navigation() {
                 <li onClick={showHide} >
                     <Link href="/branch/cse/" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold ">Computer Science and Engineering (CSE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-400">Notes, Books, Question Bank, Assignments etc.</span>
+                        <span className="text-sm text-gray-900 light:text-gray-500">Notes, Books, Question Bank, Assignments etc.</span>
                     </Link>
                 </li>
                 <li onClick={showHide}>
                     <Link href="/branch/ee" className="block p-3 px-7 transition-all duration-300 ease-in-out rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Electrical Engineering (EE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
+                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
                     </Link>
                 </li >
                 <li onClick={showHide}>
                     <Link href="/branch/ece" className="block p-3 px-7 transition-all duration-300 ease-in-out rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Electronics and Communication Engineering (ECE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
+                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
                     </Link>
                 </li>
             </ul>
@@ -112,25 +112,25 @@ export default function Navigation() {
                 <li onClick={showHide}>
                     <Link href="/branch/civil" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Civil Engineering (CE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
+                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
                     </Link>
                 </li>
                 <li onClick={showHide}>
                     <Link href="/branch/me" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Mechanical Engineering (ME)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
+                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
                     </Link>
                 </li>
                 <li onClick={showHide}>
                     <Link href="/branch/eee" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Electrical and Electronics Engineering (EEE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
+                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
                     </Link>
                 </li>
                 <li onClick={showHide}>
                     <Link href="/branch/bca" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
                         <div className="font-semibold">Bachelor in Computer Application (BCA)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-400">Coming soon...</span>
+                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
                     </Link>
                 </li>
             </ul>
