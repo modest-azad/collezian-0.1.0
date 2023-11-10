@@ -7,15 +7,15 @@ function services() {
   var para = " para text-sm text-zinc-600 ";
   return (
     <>
-      <div className="service select-none m-auto grid gap-4  md:grid-cols-3 py-20 px-[5%]">
+      <div className="service  m-auto grid gap-4  md:grid-cols-3 py-20 px-[5%]">
         {/* feature - 1  */}
-        <div className="feature bg-blue-100  500 p-8 md:shadow  md:hover:shadow-xl rounded-3xl">
+        <div className="feature select-none bg-blue-100  500 p-8 md:shadow  md:hover:shadow-xl rounded-3xl">
           <div className={image}>
             <img className="w-14 aspect-1/1" src="/icons/bot.png" alt="aiBot" />
           </div>
 
           <Link href="./GOLU_ai" className="feature-content text-center ">
-            <h2 className={heading}>Chat with <span className="text-blue-600">G.O.L.U</span></h2>
+            <h2 className={heading}>Study with <span className="text-blue-600">G.O.L.U</span></h2>
             <p className={para}>
             Sint fugiat totam et repudiandae error id saepe exercitationem.
               Minus consequatur nam itaque, tenetur possimus eum?
@@ -24,7 +24,7 @@ function services() {
         </div>
 
         {/* feature - 2 */}
-        <Link href="./Engineering" className="feature bg-blue-100 500 p-8 md:shadow   md:hover:shadow-xl rounded-3xl">
+        <Link href="./Engineering" className="feature select-none bg-blue-100 500 p-8 md:shadow   md:hover:shadow-xl rounded-3xl">
           <div className={image}>
             <img className="w-14 aspect-1/1" src="/icons/book.png" alt="Study_Materials" />
           </div>
@@ -38,18 +38,18 @@ function services() {
         </Link>
 
         {/* feature - 3  */}
-        <div className="feature  bg-blue-100 500 p-8 md:shadow  0 md:hover:shadow-xl rounded-3xl">
+        <div className="feature select-none bg-blue-100 500 p-8 md:shadow  0 md:hover:shadow-xl rounded-3xl">
           <div className={image}>
             <img className=" w-14 aspect-1/1" src="/icons/job.png" alt="career" />
           </div>
 
-          <div className="feature-content text-center">
+          <Link href="https://chat.whatsapp.com/DPyHjemxvt17fbhSFMIVYw" className="feature-content text-center">
             <h2 className={heading}>Latest Job Updates</h2>
             <p className={para}>
             Sint fugiat totam et repudiandae error id saepe exercitationem.
               Minus consequatur nam itaque, tenetur possimus eum?
             </p>
-          </div>
+          </Link>
         </div>
       </div>
     </>
