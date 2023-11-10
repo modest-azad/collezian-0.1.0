@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import Navigation from '../components/Navigation'
+import Navigation from '../components/Navigation_bar'
 import Footer from '../components/Footer'
 
 

@@ -1,15 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-
-
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 
-export default function Navigation() {
-  const [currentState, setState] = useState("hidden");
+export default function Navigation_bar() {
+const [currentState, setState] = useState("hidden");
   
-
-  const hamburger = ()=>{
+const hamburger = ()=>{
       if(currentState != "hidden"){
         setState("hidden")
       }
@@ -20,7 +17,7 @@ export default function Navigation() {
     }
   return (
     <>
-<nav className="bg-gray-100 sticky top-0 w-full center py-3 px-4 rounded-b-3xl">
+<nav className="acrylic sticky top-0 w-full center py-3 px-4 ">
     <div className="flex flex-wrap justify-between items-center mx-auto ">
         <Link href="/" className="flex items-center">
             <img  src="/logo/Collezian_Official_Logo_DARK.png" className="h-14 mr-3 rounded-full " alt="Logo" />
@@ -65,7 +62,7 @@ export default function Navigation() {
                 
                 <li className="max-sm:pt-4 max-sm:flex max-sm:justify-center">
                   {/* Action button  */}
-            <Link  href="/contribution" className="ring-2 ring-blue-500 bg-blue-100 shadow hover:shadow-xl font-bold py-2 px-4 rounded-3xl "> Contribute </Link>
+            <Link  href="/contribution" className="ring-2 ring-blue-500 bg-blue-100 shadow hover:shadow-xl font-semibold py-2 px-4 rounded-3xl "> Contribute </Link>
                 </li>
             </ul>
             <div className="social-icons flex justify-center max-sm:mb-4">

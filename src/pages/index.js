@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/styles.module.css";
 import Services from "../components/Features";
-import Portals from "../components/Important_portal";
+import Portals from "../components/government_portals";
 import Engineering from "./Engineering";
 
 export default function Home() {

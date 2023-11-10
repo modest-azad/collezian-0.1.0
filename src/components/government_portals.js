@@ -2,7 +2,7 @@
 import Image from "next/image";
 function Portals() {
   return (
-    <>
+    <div className="py-20">
       <h1
         id="portal-links"
         className="  text-zinc-800 max-md:text-center m-auto text-xl text-center font-semibold"
@@ -10,7 +10,7 @@ function Portals() {
         Government Official Portals
       </h1>
       <div className="important-portal md:w-[60em] m-auto my-8">
-        <div className=" items h-full text-zinc-700 text-center text-sm grid grid-cols-4 md:grid-cols-7  justify-center justify-items-center gap-[5%] ">
+        <div className=" items h-full text-zinc-700 text-center text-sm grid  grid-cols-4 md:grid-cols-7  justify-center justify-items-center  ">
           <a
             href="http://beu-bih.ac.in/"
             target="_blank"
@@ -99,7 +99,7 @@ function Portals() {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default Portals;
