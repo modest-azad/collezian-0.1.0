@@ -34,24 +34,23 @@ const Branch = [
   icon: "/icons/mechanical.png",
   link: "/branch/me"
 },
-
 ]
 
 export default function Engineering(){
   const [data, setData] = useState(Branch);
 
-    var card = "feature flex items-center p-4 transition-all duration-300 ease-in-out hover:ring-1  ring-blue-400 bg-gray-100 hover:bg-blue-100 shadow hover:shadow-xl text-gray-700  rounded-3xl"
+    var card = "feature p-6  md:p-8 flex items-center md:flex-col transition-all duration-300 ease-in-out  bg-blue-100   md:shadow   md:hover:shadow-xl text-gray-700  rounded-3xl"
     var image = "w-16 aspect-1/1 feature-image  flex justify-center items-center mx-6";
     var heading = "py-2 text-[#0f0f0f] ";
-    var para = "para hidden text-sm text-gray-600 ";
+    var para = "para hidden text-sm text-zinc-600 ";
 
     return (
-      <div className="h-[full] w-full">
+      <div className="h-screen w-full">
       <h1 id="portal-links" className=" text-blue-600 max-md:text-center text-xl text-center font-bold m-auto my-4 py-2">
         Choose Branch 
       </h1>
     
-        <div className=" service w-full m-auto grid grid-rows-auto  grid-cols-1 md:grid-cols-3 gap-6 md:gap-8  px-[5%]">
+        <div className=" service w-full m-auto grid grid-rows-auto  grid-cols-1 md:grid-cols-3 gap-4  px-[5%]">
           
           {
               Branch.map((data)=>{

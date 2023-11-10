@@ -2,15 +2,15 @@
 import Image from "next/image";
 function Portals() {
   return (
-    <div className="py-20">
+    <div className="py-10 px-[5%]">
       <h1
         id="portal-links"
-        className="  text-zinc-800 max-md:text-center m-auto text-xl text-center font-semibold"
+        className="  text-zinc-700 max-md:text-center m-auto text-xl text-center font-semibold"
       >
         Government Official Portals
       </h1>
       <div className="important-portal md:w-[60em] m-auto my-8">
-        <div className=" items h-full text-zinc-700 text-center text-sm grid  grid-cols-4 md:grid-cols-7  justify-center justify-items-center  ">
+        <div className="items h-full text-zinc-700 text-center text-sm grid gap-4  grid-cols-4 md:grid-cols-7  justify-center justify-items-center  ">
           <a
             href="http://beu-bih.ac.in/"
             target="_blank"
@@ -23,7 +23,7 @@ function Portals() {
             />
             <h2>BEU Patna</h2>
           </a>
-        
+    
           <a
             href="https://nptel.ac.in/"
             target="_blank"
@@ -58,7 +58,7 @@ function Portals() {
               src="https://upload.wikimedia.org/wikipedia/commons/4/4a/National_Digital_Library_of_India.png"
               alt="image"
             />
-            <h2>National Digital Library</h2>
+            <h2>NDL</h2>
           </a>
           <a
             href="https://scholarships.gov.in/"
@@ -70,7 +70,7 @@ function Portals() {
               src="/logo/fav-dark.png"
               alt="image"
             />
-            <h2>National Scholarship Portal</h2>
+            <h2>NSP Portal</h2>
           </a>
           <a
             href="https://pmsonline.bih.nic.in/"

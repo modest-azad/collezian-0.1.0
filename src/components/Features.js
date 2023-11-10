@@ -3,11 +3,11 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 function services() {
   var image = " feature-image flex justify-center items-center";
-  var heading = "py-4  text-sm font-semibold";
-  var para = " para text-sm text-gray-600 ";
+  var heading = "py-4 text-sm font-semibold";
+  var para = " para text-sm text-zinc-600 ";
   return (
     <>
-      <div className="service select-none w-full m-auto grid gap-4  md:grid-cols-3 py-15">
+      <div className="service select-none m-auto grid gap-4  md:grid-cols-3 py-20 px-[5%]">
         {/* feature - 1  */}
         <div className="feature bg-blue-100  500 p-8 md:shadow  md:hover:shadow-xl rounded-3xl">
           <div className={image}>
@@ -24,7 +24,7 @@ function services() {
         </div>
 
         {/* feature - 2 */}
-        <div className="feature bg-gradient-to-t from bg-blue-100 500 p-8 md:shadow   md:hover:shadow-xl rounded-3xl">
+        <Link href="./Engineering" className="feature bg-blue-100 500 p-8 md:shadow   md:hover:shadow-xl rounded-3xl">
           <div className={image}>
             <img className="w-14 aspect-1/1" src="/icons/book.png" alt="Study_Materials" />
           </div>
@@ -35,7 +35,7 @@ function services() {
               Minus consequatur nam itaque, tenetur possimus eum?
             </p>
           </div>
-        </div>
+        </Link>
 
         {/* feature - 3  */}
         <div className="feature  bg-blue-100 500 p-8 md:shadow  0 md:hover:shadow-xl rounded-3xl">

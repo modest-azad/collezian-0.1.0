@@ -12,16 +12,15 @@ const hamburger = ()=>{
       }
       else { setState("visible")}
       
-      console.log("Founder and Developer by instagram @modest_azad")
-
+      console.log("Founder and Developer by @modest_azad")
     }
   return (
     <>
 <nav className="acrylic sticky top-0 w-full center py-3 px-4 ">
     <div className="flex flex-wrap justify-between items-center mx-auto ">
         <Link href="/" className="flex items-center">
-            <img  src="/logo/Collezian_Official_Logo_DARK.png" className="h-14 mr-3 rounded-full " alt="Logo" />
-            {/* <span className=" self-center text-xl font-semibold whitespace-nowrap light:text-gray-900 ">Collezian</span> */}
+            <Image width={40}  height={40}  src="/logo/Collezian_Official_Logo_DARK.png" className=" mr-3 rounded-full " alt="Logo" />
+            <span className=" self-center text-xl font-semibold whitespace-nowrap text-blue-600 ">Collezian</span>
         </Link>
         <button  data-collapse-toggle="mega-menu-full" type="button" className="inline-flex outline-none items-center p-2 w-10 h-10 justify-center text-sm text-[#050A30] rounded-xl md:hidden light:text-gray-500 light:hover:bg-gray-700 " 
         aria-controls="mega-menu-full" aria-expanded="false" onMouseEnter={hamburger} onMouseLeave={hamburger}>
@@ -55,7 +54,7 @@ const hamburger = ()=>{
                         Career</Link>
                 </li>
                 <li className="max-sm:flex max-sm:justify-center">
-                    <Link href="#" className="animate-pulse flex py-2 pl-3 pr-4 text-red-600  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700"> 
+                    <Link href="#" className="animate-pulse flex py-2 pl-3 pr-4 text-green-600  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700"> 
                         Results
                     </Link>
                 </li>
