@@ -19,7 +19,6 @@ export default function Home() {
         " 
         />
 
-
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -38,8 +37,8 @@ export default function Home() {
       </Head>
       <main className="max-w-[1360px] m-auto">
         <Hero />
-        <Portals/>
         <Services/>
+        <Portals/>
         {/* <Engineering/> */}
       </main>
     </>

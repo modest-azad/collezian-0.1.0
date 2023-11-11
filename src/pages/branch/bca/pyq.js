@@ -1,7 +1,9 @@
+import Branch_pyq from "../Branch_pyq";
+
 export default function pyq(){
     return (
         <>
-        <h1>Previous Year Question</h1>
+        <Branch_pyq heading={"available soon"} />
         </>
     )
 }

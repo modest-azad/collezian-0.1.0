@@ -40,13 +40,13 @@ export default function Engineering(){
   const [data, setData] = useState(Branch);
 
     var card = "feature p-6  md:p-8 flex items-center md:flex-col transition-all duration-300 ease-in-out  bg-blue-100   md:shadow   md:hover:shadow-xl text-gray-700  rounded-3xl"
-    var image = "w-16 aspect-1/1 feature-image  flex justify-center items-center mx-6";
+    var image = " hover:grayscale-none w-16 aspect-1/1 feature-image  flex justify-center items-center mx-6";
     var heading = "py-2 text-[#0f0f0f] ";
     var para = "para hidden text-sm text-zinc-600 ";
 
     return (
-      <div className="min-h-screen w-full">
-      <h1 id="portal-links" className=" text-blue-600 max-md:text-center text-xl text-center font-bold m-auto my-4 py-2">
+      <div className="min-h-screen  w-full">
+      <h1 id="portal-links" className=" text-blue-600 max-md:text-center text-2xl text-center font-bold m-auto my-4 py-2">
         Choose Branch 
       </h1>
     

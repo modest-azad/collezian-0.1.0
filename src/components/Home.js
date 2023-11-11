@@ -5,13 +5,13 @@ const Home = () => {
     <>
       <div className="w-full py-20 grid flex-wrap justify-center items-center">
       
-        <div className="box text-center ">
-          <div className="headline text-zinc-700 ">Welcome</div>
-          <div className="headline font-serif text-4xl md:text-5xl leading-10 py-8 font-bold text-blue-800">
-            Developed for Student
+        <div className="box text-center px-4 ">
+          <div className="headline text-zinc-800 ">Student{"'"}s</div>
+          <div className="headline text-5xl md:text-6xl leading-[48px] py-8 font-black text-blue-800">
+            Collezian Community
           </div>
           <p className="Description break-words text-zinc-700 mb-10">
-          Study and Chat with <span className="text-blue-600">G.O.L.U</span> AI and access your <span className="text-blue-600">Engineering</span> study materials for free.
+          Chat with <span className="text-blue-600 font-semibold">GOLU</span> AI and access your <span className="text-blue-600 font-semibold">Engineering</span> study materials for free.
           </p>
           <Link
             href="https://chat.whatsapp.com/IEzLC5bZosdE4JkjQyIIKk"

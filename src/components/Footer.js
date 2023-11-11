@@ -5,9 +5,9 @@ export default function Footer(){
     return (
         <>
 
-            <footer className=" w-full text-center  bottom-0 bg-zinc-100 py-4 mt-4">
+            <footer className=" w-full text-center bg-zinc-100 py-2 mt-4">
                 <span className="text-sm text-gray-500 text-center light:text-gray-400">
-                   underDevelopment <br/> © 2024 <Link href="https://collezian.in/" className="hover:underline">Collezian™</Link>. All Rights Reserved.
+                   Under Development <br/> © 2024 <Link href="https://collezian.in/" className="hover:underline">Collezian™</Link>. All Rights Reserved.
                     </span>
 
                     <div className="social-icons flex justify-center p-2">

@@ -2,15 +2,15 @@
 import Image from "next/image";
 function Portals() {
   return (
-    <div className="py-10 px-[5%]">
+    <div className="py-8 px-[5%]">
       <h1
         id="portal-links"
-        className="  text-zinc-700 max-md:text-center m-auto text-xl text-center font-semibold"
+        className="  text-zinc-800 max-md:text-center m-auto text-2xl text-center font-semibold"
       >
         Government Official Portals
       </h1>
-      <div className="important-portal md:w-[60em] m-auto my-8">
-        <div className="items h-full text-zinc-700 text-center text-sm grid gap-4  grid-cols-4 md:grid-cols-7  justify-center justify-items-center  ">
+      <div className="important-portal  m-auto my-8 lg:mx-[10%]">
+        <div className="items h-full text-zinc-700 text-center text-sm grid gap-4  grid-cols-4 md:grid-cols-4 lg:grid-cols-7  justify-center justify-items-center  ">
           <a
             href="http://beu-bih.ac.in/"
             target="_blank"

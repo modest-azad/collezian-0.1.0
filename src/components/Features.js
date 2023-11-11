@@ -4,24 +4,27 @@ import Link from "next/link";
 function services() {
   var image = " feature-image flex justify-center items-center";
   var heading = "py-4 text-sm font-semibold";
-  var para = " para text-sm text-zinc-600 ";
+  var para = " para text-sm text-zinc-700 ";
   return (
-    <>
-      <div className="service  m-auto grid gap-4  md:grid-cols-3 py-20 px-[5%]">
+    <div className="py-8">
+    <h1 id="portal-links" className="  text-zinc-800 max-md:text-center m-auto text-2xl text-center font-semibold">
+       Features
+      </h1>
+      <div className="service  m-auto grid gap-6  md:grid-cols-3 my-8  px-[5%]">
         {/* feature - 1  */}
-        <div className="feature select-none bg-blue-100  500 p-8 md:shadow  md:hover:shadow-xl rounded-3xl">
+        <Link href="./GOLU_ai" className="feature select-none bg-blue-100  500 p-8 md:shadow  md:hover:shadow-xl rounded-2xl">
           <div className={image}>
             <img className="w-14 aspect-1/1" src="/icons/bot.png" alt="aiBot" />
           </div>
 
-          <Link href="./GOLU_ai" className="feature-content text-center ">
-            <h2 className={heading}>Study with <span className="text-blue-600">G.O.L.U</span></h2>
+          <div className="feature-content text-center ">
+            <h2 className={heading}>Study with <span className="text-blue-600">GOLU ai</span></h2>
             <p className={para}>
-            Sint fugiat totam et repudiandae error id saepe exercitationem.
-              Minus consequatur nam itaque, tenetur possimus eum?
+            GOLU AI assist you in your learning process.
+            It can also help you stray organized and on track with your assignments and deadlines.
             </p>
-          </Link>
-        </div>
+          </div>
+        </Link>
 
         {/* feature - 2 */}
         <Link href="./Engineering" className="feature select-none bg-blue-100 500 p-8 md:shadow   md:hover:shadow-xl rounded-3xl">
@@ -29,7 +32,7 @@ function services() {
             <img className="w-14 aspect-1/1" src="/icons/book.png" alt="Study_Materials" />
           </div>
           <div className="feature-content text-center">
-            <h2 className={heading}>Study Materials</h2>
+            <h2 className={heading}>College Study Materials</h2>
             <p className={para}>
               Sint fugiat totam et repudiandae error id saepe exercitationem.
               Minus consequatur nam itaque, tenetur possimus eum?
@@ -44,7 +47,7 @@ function services() {
           </div>
 
           <Link href="https://chat.whatsapp.com/DPyHjemxvt17fbhSFMIVYw" className="feature-content text-center">
-            <h2 className={heading}>Latest Job Updates</h2>
+            <h2 className={heading}>Off Campus Placements</h2>
             <p className={para}>
             Sint fugiat totam et repudiandae error id saepe exercitationem.
               Minus consequatur nam itaque, tenetur possimus eum?
@@ -52,7 +55,7 @@ function services() {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default services;

@@ -26,7 +26,7 @@ const hamburger = ()=>{
         aria-controls="mega-menu-full" aria-expanded="false" onClick={hamburger} onMouseEnter={hamburger} onMouseLeave={hamburger}>
             <span className="sr-only">Open main menu</span>
             <svg id="hambuger" className="w-full h-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
         </button>
         
@@ -61,7 +61,7 @@ const hamburger = ()=>{
                 
                 <li className="max-sm:pt-4 max-sm:flex max-sm:justify-center">
                   {/* Action button  */}
-            <Link  href="/contribution" className="ring-2 ring-blue-600 bg-blue-100 shadow hover:shadow-xl font-semibold py-2 px-4 rounded-3xl ">Contribute</Link>
+            <Link  href="/contribution" className="ring-2 ring-blue-600 bg-blue-100 text-zinc-800 shadow hover:shadow-xl font-semibold py-2 px-4 rounded-3xl ">Contribute</Link>
                 </li>
             </ul>
             <div className="social-icons flex justify-center max-sm:mb-4">
@@ -77,7 +77,7 @@ const hamburger = ()=>{
                             
         </div>
         </div>
-        
+         
     </div>
    
 </nav>
