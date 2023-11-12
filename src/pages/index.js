@@ -7,6 +7,7 @@ import styles from "../styles/styles.module.css";
 import Services from "../components/Features";
 import Portals from "../components/government_portals";
 import Engineering from "./Engineering";
+import Association_groups from "../components/Association_groups";
 
 export default function Home() {
   return (
@@ -38,8 +39,8 @@ export default function Home() {
       <main className="max-w-[1360px] m-auto">
         <Hero />
         <Services/>
+        <Association_groups/>
         <Portals/>
-        {/* <Engineering/> */}
       </main>
     </>
   );

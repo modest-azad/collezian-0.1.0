@@ -16,7 +16,7 @@ function Portals() {
             target="_blank"
             className="item transition-all duration-300 ease-in-out md:hover:translate-y-[-0.5em] "
           >
-            <img width={150} height={150}
+            <img width={120} height={120}
               className=" p-4 rounded-full"
               src="https://media.licdn.com/dms/image/D4D0BAQFFZt-FTCDSsA/company-logo_200_200/0/1697210098603/beupatna_logo?e=2147483647&v=beta&t=TZvQPymtB1cGXerbClj2CyA9bmVwq3mVJvpPEwE2LB4"
               alt="image"
@@ -29,7 +29,7 @@ function Portals() {
             target="_blank"
             className="item  transition-all duration-300 ease-in-out md:hover:translate-y-[-0.5em] "
           >
-            <img width={150} height={150}
+            <img width={120} height={120}
               className=" p-4 rounded-full"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKUd5HnBqh0VBnFzcWlyz_32Az6uxtP1ahatKFttg&s"
               alt="image"
@@ -41,7 +41,7 @@ function Portals() {
             target="_blank"
             className="item transition-all duration-300 ease-in-out md:hover:translate-y-[-0.5em]"
           >
-            <img width={150} height={150}
+            <img width={120} height={120}
               className=" p-4 rounded-full"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbnc1-B3W16TYnS90yvfhDhyRfpKdNQO1V2dbvLuA-8Q&s"
               alt="image"
@@ -53,7 +53,7 @@ function Portals() {
             target="_blank"
             className="item transition-all duration-300 ease-in-out md:hover:translate-y-[-0.5em]"
           >
-            <img width={150} height={150}
+            <img width={120} height={120}
               className=" p-4 rounded-full"
               src="https://upload.wikimedia.org/wikipedia/commons/4/4a/National_Digital_Library_of_India.png"
               alt="image"
@@ -65,7 +65,7 @@ function Portals() {
             target="_blank"
             className="item transition-all duration-300 ease-in-out md:hover:translate-y-[-0.5em]"
           >
-            <img width={150} height={150}
+            <img width={120} height={120}
               className=" p-4 rounded-full"
               src="/logo/fav-dark.png"
               alt="image"
@@ -77,7 +77,7 @@ function Portals() {
             target="_blank"
             className="item transition-all duration-300 ease-in-out md:hover:translate-y-[-0.5em]"
           >
-            <img width={150} height={150}
+            <img width={120} height={120}
               className=" p-4 rounded-full"
               src="/logo/fav-dark.png"
               alt="image"
@@ -90,7 +90,7 @@ function Portals() {
             target="_blank"
             className="item transition-all duration-300 ease-in-out md:hover:translate-y-[-0.5em]"
           >
-            <img width={150} height={150}
+            <img width={120} height={120}
               className=" p-4 rounded-full"
               src="https://asset.brandfetch.io/id27aU8Kyu/id97pzxNTf.jpeg"
               alt="image"

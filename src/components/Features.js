@@ -1,6 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
 
-/* eslint-disable @next/next/no-img-element */
 function services() {
   var image = " feature-image flex justify-center items-center";
   var heading = "py-4 text-sm font-semibold";
@@ -12,9 +12,9 @@ function services() {
       </h1>
       <div className="service  m-auto grid gap-6  md:grid-cols-3 my-8  px-[5%]">
         {/* feature - 1  */}
-        <Link href="./GOLU_ai" className="feature select-none bg-blue-100  500 p-8 md:shadow  md:hover:shadow-xl rounded-2xl">
+        <Link href="./GOLU_ai" className="feature select-none  500 p-8 shadow-xl  rounded-2xl">
           <div className={image}>
-            <img className="w-14 aspect-1/1" src="/icons/bot.png" alt="aiBot" />
+            <Image width={100} height={100}  className="  aspect-1/1" src="/icons/gif/golu_ai.gif"  alt="GOLU ai" />
           </div>
 
           <div className="feature-content text-center ">
@@ -27,9 +27,9 @@ function services() {
         </Link>
 
         {/* feature - 2 */}
-        <Link href="./Engineering" className="feature select-none bg-blue-100 500 p-8 md:shadow   md:hover:shadow-xl rounded-3xl">
+        <Link href="./Engineering" className="feature select-none  500 p-8 shadow-xl  rounded-3xl">
           <div className={image}>
-            <img className="w-14 aspect-1/1" src="/icons/book.png" alt="Study_Materials" />
+            <Image width={100} height={100} className=" aspect-1/1" src="/icons/gif/reading.gif" alt="Study_Materials" />
           </div>
           <div className="feature-content text-center">
             <h2 className={heading}>College Study Materials</h2>
@@ -41,16 +41,16 @@ function services() {
         </Link>
 
         {/* feature - 3  */}
-        <div className="feature select-none bg-blue-100 500 p-8 md:shadow  0 md:hover:shadow-xl rounded-3xl">
+        <div className="feature select-none  500 p-8 shadow-xl  0 rounded-3xl">
           <div className={image}>
-            <img className=" w-14 aspect-1/1" src="/icons/job.png" alt="career" />
+            <Image width={100} height={100} className=" aspect-1/1" src="/icons/gif/three-friends.gif" alt="career" />
           </div>
 
           <Link href="https://chat.whatsapp.com/DPyHjemxvt17fbhSFMIVYw" className="feature-content text-center">
-            <h2 className={heading}>Off Campus Placements</h2>
+            <h2 className={heading}>Best Groups</h2>
             <p className={para}>
-            Sint fugiat totam et repudiandae error id saepe exercitationem.
-              Minus consequatur nam itaque, tenetur possimus eum?
+            Get free access of best <span className="text-green-600">Whatsapp</span> and <span className="text-blue-600">Telegram</span> Groups .
+            Join group that fullfill you requirments.
             </p>
           </Link>
         </div>
