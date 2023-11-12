@@ -64,11 +64,14 @@ const hamburger = ()=>{
             <Link  href="/contribution" className="ring-2 ring-blue-600 bg-blue-100 text-zinc-800 shadow hover:shadow-xl font-semibold py-2 px-4 rounded-3xl ">Contribute</Link>
                 </li>
             </ul>
-            <div className="social-icons flex justify-center max-sm:mb-4 px-2">
-                        <Link className="mx-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.github.com/modest-azad/" target="_blank">
+
+            <hr/>
+
+            <div className="social-icons flex justify-center max-sm:m-4 px-2">
+                        <Link className="mx-2 hover:shadow-xl rounded-full" href="https://www.github.com/modest-azad/" target="_blank">
                             <Image className="rounded-full" src="/icons/X.png" width={30} height={30} alt=""/>
                         </Link>
-                        <Link className="mx-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.linkedin.com/in/modest-azad/" target="_blank">
+                        <Link className="mx-2 hover:shadow-xl rounded-full" href="https://www.linkedin.com/in/modest-azad/" target="_blank">
                             <Image className="rounded-full" src="/icons/instagram.png" width={30} height={30} alt=""/>
                         </Link>
                             
@@ -78,57 +81,6 @@ const hamburger = ()=>{
     </div>
    
 </nav>
- {/* Mega DropDown Menu For all branch */}
- {/* <div id="mega-menu-full-dropdown" className={`" ${currentState}  z-50 py-5 mt-2 sticky top-0  w-full rounded-3xl acrylic border-gray-200 shadow-sm border-y light:bg-gray-800 light:border-gray-600"`} onClick={hamburger} >
-        <div className="grid px-4 py-5 mx-auto  text-gray-900  sm:grid-cols-2 ">
-            <ul>
-                <li onClick={showHide} >
-                    <Link href="/branch/cse/" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
-                        <div className="font-semibold ">Computer Science and Engineering (CSE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-500">Notes, Books, Question Bank, Assignments etc.</span>
-                    </Link>
-                </li>
-                <li onClick={showHide}>
-                    <Link href="/branch/ee" className="block p-3 px-7 transition-all duration-300 ease-in-out rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
-                        <div className="font-semibold">Electrical Engineering (EE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
-                    </Link>
-                </li >
-                <li onClick={showHide}>
-                    <Link href="/branch/ece" className="block p-3 px-7 transition-all duration-300 ease-in-out rounded-3xl hover:bg-blue-100 light:hover:bg-gray-700">
-                        <div className="font-semibold">Electronics and Communication Engineering (ECE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
-                    </Link>
-                </li>
-            </ul>
-            <ul>
-                <li onClick={showHide}>
-                    <Link href="/branch/civil" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
-                        <div className="font-semibold">Civil Engineering (CE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
-                    </Link>
-                </li>
-                <li onClick={showHide}>
-                    <Link href="/branch/me" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
-                        <div className="font-semibold">Mechanical Engineering (ME)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
-                    </Link>
-                </li>
-                <li onClick={showHide}>
-                    <Link href="/branch/eee" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
-                        <div className="font-semibold">Electrical and Electronics Engineering (EEE)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
-                    </Link>
-                </li>
-                <li onClick={showHide}>
-                    <Link href="/branch/bca" className="block p-3 px-7 rounded-3xl transition-all duration-300 ease-in-out hover:bg-blue-100 light:hover:bg-gray-700">
-                        <div className="font-semibold">Bachelor in Computer Application (BCA)</div>
-                        <span className="text-sm text-gray-900 light:text-gray-500">Coming soon...</span>
-                    </Link>
-                </li>
-            </ul>
-        </div>
-    </div> */}
     
     </>
   );
