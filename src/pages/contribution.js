@@ -5,7 +5,7 @@ export default function Contribute(){
     return (
         <>
                 <div className="max-w-[1360px] text-center m-auto h-full grid grid-cols-1 lg:grid-cols-12  justify-center">
-                    <div className="bg-zinc-950 md:col-span-6 flex justify-center items-center">
+                    <div className="bg-blue-700 md:col-span-6 flex justify-center items-center">
                         <img className="w-[40%] " src="/logo/Light_symbol_logo.png" alt="logo"/>
                     </div>
                     <div className="form-container md:col-span-6 w-full">
