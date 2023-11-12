@@ -16,7 +16,7 @@ const hamburger = ()=>{
     }
   return (
     <>
-<nav className="acrylic sticky top-0 w-full center py-3 px-4 ">
+<nav className="acrylic sticky top-0 w-full center py-3 px-4 rounded-b-xl">
     <div className="flex flex-wrap justify-between items-center mx-auto ">
         <Link href="/" className="flex items-center">
             <Image width={40}  height={40}  src="/logo/Collezian_Official_Logo_DARK.png" className=" mr-3 rounded-full " alt="Logo" />
@@ -26,7 +26,7 @@ const hamburger = ()=>{
         aria-controls="mega-menu-full" aria-expanded="false" onClick={hamburger} onMouseEnter={hamburger} onMouseLeave={hamburger}>
             <span className="sr-only">Open main menu</span>
             <svg id="hambuger" className="w-full h-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M1 1h15M1 7h15M1 13h15"/>
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
         </button>
         
@@ -64,15 +64,12 @@ const hamburger = ()=>{
             <Link  href="/contribution" className="ring-2 ring-blue-600 bg-blue-100 text-zinc-800 shadow hover:shadow-xl font-semibold py-2 px-4 rounded-3xl ">Contribute</Link>
                 </li>
             </ul>
-            <div className="social-icons flex justify-center max-sm:mb-4">
-                        <Link className="px-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.github.com/modest-azad/" target="_blank">
-                            <Image src="/icons/github.png" width={30} height={30} alt=""/>
+            <div className="social-icons flex justify-center max-sm:mb-4 px-2">
+                        <Link className="mx-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.github.com/modest-azad/" target="_blank">
+                            <Image className="rounded-full" src="/icons/X.png" width={30} height={30} alt=""/>
                         </Link>
-                        <Link className="px-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.linkedin.com/in/modest-azad/" target="_blank">
-                            <Image src="/icons/instagram.png" width={30} height={30} alt=""/>
-                        </Link>
-                        <Link className="px-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.linkedin.com/in/modest-azad/" target="_blank">
-                            <Image src="/icons/linkedin.png" width={30} height={30} alt=""/>
+                        <Link className="mx-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.linkedin.com/in/modest-azad/" target="_blank">
+                            <Image className="rounded-full" src="/icons/instagram.png" width={30} height={30} alt=""/>
                         </Link>
                             
         </div>

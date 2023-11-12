@@ -12,13 +12,10 @@ export default function Footer(){
 
                     <div className="social-icons flex justify-center p-2">
                         <Link className="p-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.github.com/modest-azad/" target="_blank">
-                            <Image src="/icons/github.png" width={30} height={30} alt=""/>
+                        <Image className="rounded-full" src="/icons/X.png" width={30} height={30} alt=""/>
                         </Link>
                         <Link className="p-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.instagram.com/modest_azad/" target="_blank">
                             <Image src="/icons/instagram.png" width={30} height={30} alt=""/>
-                        </Link>
-                        <Link className="p-2 transition duration-300 hover:shadow-xl rounded-full" href="https://www.linkedin.com/in/modest-azad/" target="_blank">
-                            <Image src="/icons/linkedin.png" width={30} height={30} alt=""/>
                         </Link>
                             
                     </div>

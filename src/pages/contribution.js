@@ -5,11 +5,11 @@ export default function Contribute(){
     return (
         <>
                 <div className="max-w-[1360px] text-center m-auto h-full grid grid-cols-1 lg:grid-cols-12  justify-center">
-                    <div className="bg-blue-600 md:col-span-4 flex justify-center items-center">
-                        <img className="w-[50%] p-4" src="/logo/Collezian_Official_logo_LIGHT.png" alt="logo"/>
+                    <div className="bg-zinc-950 md:col-span-6 flex justify-center items-center">
+                        <img className="w-[40%] p-4" src="/logo/Light_symbol_logo.png" alt="logo"/>
                     </div>
-                    <div className="form-container md:col-span-8 w-full">
-                        <h2 className="text-center font-bold text-2xl my-4 text-blue-600">Upload Files</h2> 
+                    <div className="form-container md:col-span-6 w-full">
+                        <h2 className="text-center font-bold text-2xl my-4 text-zinc-800">Upload Files</h2> 
 
                         <form className="grid gap-2 justify-center">
                         <hr/>
