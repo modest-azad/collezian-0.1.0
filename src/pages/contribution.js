@@ -6,7 +6,7 @@ export default function Contribute(){
         <>
                 <div className="max-w-[1360px] text-center m-auto h-full grid grid-cols-1 lg:grid-cols-12  justify-center">
                     <div className="bg-zinc-950 md:col-span-6 flex justify-center items-center">
-                        <img className="w-[40%] p-4" src="/logo/Light_symbol_logo.png" alt="logo"/>
+                        <img className="w-[40%] " src="/logo/Light_symbol_logo.png" alt="logo"/>
                     </div>
                     <div className="form-container md:col-span-6 w-full">
                         <h2 className="text-center font-bold text-2xl my-4 text-zinc-800">Upload Files</h2> 
