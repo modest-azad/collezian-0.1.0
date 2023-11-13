@@ -41,8 +41,7 @@ function services() {
         </Link>
 
         {/* feature - 2 */}
-        <Link
-            href="https://chat.whatsapp.com/IEzLC5bZosdE4JkjQyIIKk" className="feature select-none  500 p-8 shadow lg:hover:shadow-blue-600  0 rounded-3xl">
+        <div className="feature select-none  500 p-8 shadow lg:hover:shadow-blue-600  0 rounded-3xl">
           <div className={image}>
             <Image
               width={100}
@@ -64,7 +63,7 @@ function services() {
               group that fullfill you requirments.
             </p>
           </div>
-        </Link>
+        </div>
 
         {/* feature - 3 */}
         <Link
