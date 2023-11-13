@@ -12,6 +12,19 @@ function Association_groups() {
       </h1>
       <div className="important-portal   m-auto my-8 lg:mx-[10%]">
         <div className="items h-full text-zinc-700 text-center text-sm flex gap-4  justify-center justify-items-center  ">
+          {/* group  */}
+          <a
+            href="https://t.me/bihar_btech_discussion"
+            target="_blank"
+            className="item"
+          >
+            <img width={120} height={120}
+              className=" p-4 rounded-full"
+              src="/Groups_Image/Bihar_btech_discussion.jpg"
+              alt="image"
+            />
+          </a>
+          {/* group */}
           <a
             href="https://chat.whatsapp.com/HN4Ogn3uxA85psql0v2IvF"
             target="_blank"
@@ -24,6 +37,7 @@ function Association_groups() {
             />
             
           </a>
+
           <a
             href="https://chat.whatsapp.com/DPyHjemxvt17fbhSFMIVYw"
             target="_blank"
