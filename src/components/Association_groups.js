@@ -37,7 +37,7 @@ function Association_groups() {
             />
             
           </a>
-
+          {/* group */}
           <a
             href="https://chat.whatsapp.com/DPyHjemxvt17fbhSFMIVYw"
             target="_blank"
@@ -50,6 +50,7 @@ function Association_groups() {
             />
            
           </a>
+          {/* group */}
           <a
             href="https://t.me/collezian_bcece_le"
             target="_blank"
@@ -62,6 +63,7 @@ function Association_groups() {
             />
           
           </a>
+          
         </div>
       </div>
     </div>
