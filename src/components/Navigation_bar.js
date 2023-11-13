@@ -68,10 +68,10 @@ const hamburger = ()=>{
             <hr/>
 
             <div className="social-icons flex justify-center max-sm:m-4 px-2">
-                        <Link className="mx-2 hover:shadow-xl rounded-full" href="https://www.github.com/modest-azad/" target="_blank">
+                        <Link className="mx-2 hover:shadow-xl rounded-full" href="https://www.x.com/collezian/" target="_blank">
                             <Image className="rounded-full" src="/icons/X.png" width={30} height={30} alt=""/>
                         </Link>
-                        <Link className="mx-2 hover:shadow-xl rounded-full" href="https://www.linkedin.com/in/modest-azad/" target="_blank">
+                        <Link className="mx-2 hover:shadow-xl rounded-full" href="https://www.instagram.com/modest-azad/" target="_blank">
                             <Image className="rounded-full" src="/icons/instagram.png" width={30} height={30} alt=""/>
                         </Link>
                             
