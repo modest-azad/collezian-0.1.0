@@ -49,19 +49,19 @@ const hamburger = ()=>{
                     <Link href="/Engineering" className="block py-2 pl-3 pr-4 text-gray-500  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
                       Engineering</Link>
                 </li>
-                <li className="max-sm:flex max-sm:justify-center">
+                {/* <li className="max-sm:flex max-sm:justify-center">
                     <Link href="https://chat.whatsapp.com/DPyHjemxvt17fbhSFMIVYw" className="block py-2 pl-3 pr-4 text-gray-500  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
                         Career</Link>
-                </li>
-                <li className="max-sm:flex max-sm:justify-center">
-                    <Link href="#" className="animate-pulse flex py-2 pl-3 pr-4 text-green-600  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700"> 
+                </li> */}
+                <li className=" max-sm:flex max-sm:justify-center">
+                    <Link href="#" className="animate-pulse flex py-2 pl-3 pr-4 text-blue-600  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700"> 
                         Results
                     </Link>
                 </li>
                 
                 <li className="max-sm:pt-4 max-sm:flex max-sm:justify-center">
                   {/* Action button  */}
-            <Link  href="/contribution" className="ring-2 ring-blue-600 bg-blue-100 text-zinc-800 shadow hover:shadow-xl font-semibold py-2 px-4 rounded-3xl ">Contribute</Link>
+            <Link  href="/contribution" className="ring-2 ring-blue-600 bg-blue-100 text-zinc-700 shadow hover:shadow-xl font-semibold py-2 px-4 rounded-3xl ">Upload Files</Link>
                 </li>
             </ul>
 
