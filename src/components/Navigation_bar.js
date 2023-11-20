@@ -33,22 +33,21 @@ const hamburger = ()=>{
             <ul className="transition text-zinc-700 delay-0 duration-300 ease-in-out flex  flex-col p-5 mt-4  max-sm:rounded-3xl md:flex-row md:space-x-8 md:mt-0  ">
                            
                <li className="max-sm:flex max-sm:justify-center">
-                    <Link href="/Engineering" className="flex  py-2 pl-3 pr-4  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
+                    <Link href="/Engineering" className="flex  py-3 pl-3 pr-4  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
                     <Image className="mx-1 " src="/icons/library.svg" width={20} height={20} alt="upload"/>
                       Study Material</Link>
                 </li>
                 <li className="max-sm:flex max-sm:justify-center">
-                    <Link href="https://chat.whatsapp.com/DPyHjemxvt17fbhSFMIVYw" className="flex py-2 pl-3 pr-4  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
+                    <Link href="/Roadmaps" className="flex py-3 pl-3 pr-4  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
                     <Image className="mx-1 " src="/icons/map.svg" width={20} height={20} alt="upload"/>
                         Roadmaps</Link>
                 </li>
                 <li className="max-sm:flex max-sm:justify-center">
-                    <Link href="#" className="flex py-2 pl-3 pr-4  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
+                    <Link href="/Project_ideas" className="flex py-3 pl-3 pr-4  rounded-xl hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500 md:p-0 light:text-white md:light:hover:text-blue-500 light:hover:bg-gray-700 light:hover:text-blue-500 md:light:hover:bg-transparent light:border-gray-700">
                     <Image className="mx-1 " src="/icons/lightbulb.svg" width={20} height={20} alt="upload"/>
                         Project Ideas</Link>
                 </li>
                                
-                
             </ul>
 
             <hr/>

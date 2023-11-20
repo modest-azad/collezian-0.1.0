@@ -12,7 +12,7 @@ function Association_groups() {
       Groups
       </h1>
       <p className=" Description break-words text-center text-sm text-zinc-700 my-2">
-          &quot;Top associated Engineering Whatsapp and Telegram Groups.&quot;
+          &quot;Top associated engineering Whatsapp and Telegram groups of your state.&quot;
           </p>
       <div className="important-portal m-auto my-4 lg:mx-[10%]">
         <div className="items h-full text-zinc-700 text-center text-sm flex gap-4  justify-center  ">
@@ -54,20 +54,6 @@ function Association_groups() {
           
           </a>
           
-          {/* group */}
-          <a
-            href="https://chat.whatsapp.com/HN4Ogn3uxA85psql0v2IvF"
-            target="_blank"
-            className="item"
-          >
-            <img width={120} height={120}
-              className=" p-4 rounded-full"
-              src="/Groups_Image/collezian_dsa.jpg"
-              alt="image"
-            />
-            
-          </a>
-
         </div>
       </div>
     </section>

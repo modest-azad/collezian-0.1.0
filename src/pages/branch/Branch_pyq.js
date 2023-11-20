@@ -1,17 +1,7 @@
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Branch_pyq({ heading }) {
-  const [currentState, setState] = useState("hidden");
-  
-  const hamburger = ()=>{
-        if(currentState != "hidden"){
-          setState("hidden")
-        }
-        else { setState("visible")}
-
-      }
-
+ 
   return (
     <>
     <div className="min-h-[80vh] flex flex-col justify-center items-center">

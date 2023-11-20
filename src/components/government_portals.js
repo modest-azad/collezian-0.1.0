@@ -7,7 +7,7 @@ function Portals() {
         id="portal-links"
         className="  text-zinc-800 max-md:text-center m-auto text-2xl text-center font-semibold"
       >
-        Government Official Portals
+        Government Portals
       </h1>
       <div className="important-portal  m-auto my-8 lg:mx-[10%]">
         <div className="items h-full text-zinc-700 text-center text-sm grid gap-4  grid-cols-4 md:grid-cols-4 lg:grid-cols-7  justify-center justify-items-center  ">
