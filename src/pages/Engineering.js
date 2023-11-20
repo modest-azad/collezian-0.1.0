@@ -6,32 +6,32 @@ import { useState } from "react";
 const Branch = [
   {
     name: "Computer Science and Engineering",
-    icon: "/icons/coding.png",
+    icon: "/icons/laptop.svg",
     link: "/branch/cse"
 },
   {
     name: "Electronics and Communication Engineering",
-    icon: "/icons/electronics.png",
+    icon: "/icons/cpu.svg",
     link: "/branch/ece"
 },
   {   
     name: "Elecrical and Electronics Engineering",
-    icon: "/icons/eee.png",
+    icon: "/icons/memory-stick.svg",
     link: "/branch/eee"
 },
   {   
     name: "Elecrical Engineering",
-    icon: "/icons/electrical.png",
+    icon: "/icons/zap.svg",
     link: "/branch/ee"
 },
   {   
     name: "Civil Engineering",
-    icon: "/icons/civil.png",
+    icon: "/icons/traffic-cone.svg",
     link: "/branch/civil"
 },
 {   
   name: "Mechanical Engineering",
-  icon: "/icons/mechanical.png",
+  icon: "/icons/cog.svg",
   link: "/branch/me"
 },
 ]
@@ -39,7 +39,7 @@ const Branch = [
 export default function Engineering(){
   const [data, setData] = useState(Branch);
 
-    var card = "feature p-6  md:p-8 flex items-center md:flex-col transition-all duration-300 ease-in-out  bg-blue-100   md:shadow   md:hover:shadow-xl text-gray-700  rounded-3xl"
+    var card = "feature p-6  md:p-8 flex items-center md:flex-col transition-all duration-300 ease-in-out  bg-zinc-100   md:shadow   md:hover:shadow-xl text-gray-700  rounded-3xl"
     var image = " hover:grayscale-none w-16 aspect-1/1 feature-image  flex justify-center items-center mx-6";
     var heading = "py-2 text-[#0f0f0f] ";
     var para = "para hidden text-sm text-zinc-600 ";
@@ -56,7 +56,7 @@ export default function Engineering(){
               Branch.map((data)=>{
                 return (
                   <Link key={data} href={data.link} className={card}>
-                  <div className={image}> <img  src={data.icon} alt="branch png" /></div>  
+                  <div className={image}> <Image width={40} height={40}  src={data.icon} alt="branch png" /></div>  
                   <div className="feature-content">
                     <h2 className={heading}>{data.name}</h2>
                   </div>

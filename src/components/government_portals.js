@@ -2,7 +2,7 @@
 import Image from "next/image";
 function Portals() {
   return (
-    <div className="py-8 px-[5%]">
+    <section className="py-8 px-[5%]">
       <h1
         id="portal-links"
         className="  text-zinc-800 max-md:text-center m-auto text-2xl text-center font-semibold"
@@ -99,7 +99,7 @@ function Portals() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 export default Portals;

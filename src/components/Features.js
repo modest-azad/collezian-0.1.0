@@ -6,7 +6,7 @@ function services() {
   var heading = "py-2 text font-semibold";
   var para = " para text-sm text-zinc-700 ";
   return (
-    <div className="py-8">
+    <section className="py-8">
       <h1
         id="portal-links"
         className="  text-zinc-800 max-md:text-center m-auto text-2xl text-center font-semibold"
@@ -17,7 +17,7 @@ function services() {
         {/* feature - 1  */}
         <Link
           href="./GOLU_ai"
-          className="feature select-none  500 p-6 shadow lg:hover:shadow-blue-600  rounded-2xl"
+          className="feature select-none  500 p-6 outline outline-1 outline-zinc-200 hover:shadow-xl lg:hover:shadow-zinc-200  rounded-2xl transition-all duration-300 ease-out hover:translate-y-[-8px]"
         >
           <div className={image}>
             <Image
@@ -41,7 +41,7 @@ function services() {
         </Link>
 
         {/* feature - 2 */}
-        <div className="feature select-none  500 p-8 shadow lg:hover:shadow-blue-600  0 rounded-3xl">
+        <div className="feature select-none  500 p-6 outline outline-1 outline-zinc-200 hover:shadow-xl lg:hover:shadow-zinc-200  rounded-2xl transition-all duration-300 ease-out hover:translate-y-[-8px]">
           <div className={image}>
             <Image
               width={100}
@@ -68,7 +68,7 @@ function services() {
         {/* feature - 3 */}
         <Link
           href="./Engineering"
-          className="feature select-none  500 p-8 shadow lg:hover:shadow-blue-600  rounded-3xl"
+          className="feature select-none  500 p-6 outline outline-1 outline-zinc-200 hover:shadow-xl lg:hover:shadow-zinc-200  rounded-2xl transition-all duration-300 ease-out hover:translate-y-[-8px]"
         >
           <div className={image}>
             <Image
@@ -88,7 +88,7 @@ function services() {
           </div>
         </Link>
       </div>
-    </div>
+    </section>
   );
 }
 export default services;
